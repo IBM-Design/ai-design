@@ -1,0 +1,43 @@
+$pink-40: #FA75A6;
+
+.hr {
+  padding-top: 1.5rem;
+  position: relative;
+
+  &:before {
+    background-color: #8c8c8c;
+    content: '';
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    width: calc(100% - 4rem);
+  }
+}
+
+.opener,
+.recommended,
+.quote,
+.consider,
+.questions,
+.example {
+  h4 {
+    color: $pink-40;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.opener {
+  margin-bottom: 5rem;
+
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.recommended,
+.consider,
+.questions {
+  margin-bottom: 7.5rem;
+}

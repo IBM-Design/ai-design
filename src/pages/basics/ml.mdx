@@ -1,0 +1,104 @@
+---
+title: "ML"
+---
+
+import { AnchorLinks, PageDescription, Video } from "gatsby-theme-carbon";
+
+<PageDescription>
+  Add-on repositories, or repos, are components built for a specific product or
+  experience. The repos are built on top of the core Carbon repo, and enable
+  teams to create their own custom components that follow Carbon's visual style
+  and guidelines.
+</PageDescription>
+
+# What is machine learning?
+
+Machine learning (ML) is a subset of artificial intelligence (AI), and is about getting an AI to accomplish tasks without being given specific instructions. In essence, it's about teaching machines how to learn!
+
+AI is simulated human cognition, so let's first think about how we learn. First, here's a simple question: Were we born with PhD level intelligence?
+
+Of course not! At the beginning of our lives, we have little understanding of the world around us, but will grow to learn a lot. We learn through our senses by a combination of interacting being explicitly taught, finding patterns, and by trial-and-error. 
+
+AI learns in a similar way. At first, an AI doesn't know anything. ML gives AI the ability to learn about its world.
+
+# Why use machine learning?
+
+AI is all about allowing a system to learn from examples rather than instructions. ML is what makes that possible. Without ML, there's little point to using AI.
+
+# How does machine learning work?
+
+There are a few distinct ways that machines can learn. In most cases, it'll fall under one of three buckets: supervised learning, unsupervised learning, and reinforcement learning. 
+
+Remember, we also have discrete learning styles. Sometimes we learn by watching videos and reading books. Sometimes we acquire knowledge based on hearing it in context. And, learning certain tasks requires a specific learning style. For example, we can always read about baseball, but if we want to hit a ball, there's no amount of reading that can substitute practicing swinging a bat. This separation in learning styles is the idea behind the different branches of ML.
+
+#### Supervised learning
+Supervised learning specializes in predicting the future. This is split further depending on whether it's predicting a thing or a number, called classification or regression, respectively. To understand how this works, you start with the data. All supervised learning algorithms need what’s called labeled data. This data is grouped into samples that have been tagged with one or more labels. This means, in applying supervised learning, you'll have to supply characteristics of a thing — or features — and then what that thing actually is. 
+
+### To demonstrate the former, let's take the example of teaching a toddler their shapes. 
+
+A classification problem might look something like this. You might have a shapes sheet which shows shapes and the name for each. 
+
+![alone](./alone.jpg)
+
+Your toddler would have a complete understanding if, say, all triangles had equal length sides. In order for your toddler to better understand triangles, you'd have to show her or him more examples. Doing this would build confidence in identifying triangular shapes.
+
+![alone](./alone.jpg)
+
+Consider the other type of supervised learning: predicting a value. Assume you're trying to predict how much your salary should be. Suppose you could see everyone's salary, by role, experience, responsibilities, band level, and other relevant information, you could then see who else falls closest to you, and choose a salary closest to them. This is called a regression problem.
+
+Supervised learning is providing your AI with enough examples to make accurate predictions. A rule of thumb: the more examples, the better. 
+
+#### Unsupervised learning
+Unsupervised learning finds commonalities and patterns in the input data. By extension, it's also commonly used to find outliers and anomalies. A majority of unsupervised learning is around clustering, that is, grouping the data by some set of characteristics or features. This is the same features mentioned in supervised learning, although unsupervised learning doesn't use labeled data.
+
+Let’s use the example again of the toddler and the shapes. Suppose again you had a toddler group similar shapes together (Figure 3). The toddler will likely group, (or cluster), by shape, color, or size. This mode of learning is great for surfacing hidden connections or oddities in oceans of data.
+
+![alone](./alone.jpg)
+
+#### Reinforcement learning
+Reinforcement learning is about rewarding positive behavior and punishing negative behavior. Over time, this can determine the optimal behavior for a particular environment. 
+
+Think back to your childhood. When you were at school or at home, what happened when you did something bad? You probably got scolded, grounded, or a long lecture. What happened when you did something good?  Maybe you got praise or gifts. Rewarding the "right" behavior and punishing the "wrong" behavior is the cornerstone of reinforcement learning; that is you give your agent positive reinforcement for doing the right thing and negative reinforcement for the wrong things. 
+
+The ingredients of a reinforcement learning problem are: 
+ - an agent, 
+ - its environment, 
+ - a way for the agent to interact with its environment, and 
+ - a way for the agent to get feedback on its actions within the 	environment (called a reward function or feedback function).
+
+Where reinforcement learning gets interesting is when you have a limited environment. That is, your environment has is bounded by large but finite number of states — think most games like checkers, chess, Go, Rubik’s® Cubes, Pac-Man™, Galaga, etc. From here, the system can run hundreds, thousands, tens of thousands of iterations for every possible state to decide the best strategy for every scenario. 
+
+ML isn't magic; it's math. Statistics, probability, linear algebra, and algorithms are what bring ML to life.
+
+Deep learning and neural networks
+Deep learning (DL) is a subset of machine learning, therefore everything you just learned still applies. The motivation is still trying to predict an output given an input; either supervised learning or unsupervised learning can be used. The key differences are performance and how it works. 
+
+For now, just know that deep learning is machine learning that uses a NN with multiple hidden layers. If you want to even more, read [this] or watch [that].
+
+![alone](./alone.jpg)
+
+DL is remarkable at making deep connections within the data because of neural networks. Neural networks come in many shapes and sizes, but are essential for making deep learning work. They take an input, and perform several rounds of math on its features for each layer, until it predicts an output. (Deep breath, the rules of ML still apply.) DL uses a specific subset of NN in order to work, (e.g. convolutional NN, recurrent NN).
+
+The caveat to NN are that in order to be powerful, they need a lot of data and take a long time to train, thus can be expensive comparatively. Also because the human allows the machine to find deeper connections in the data, the process is near non-understandable and not very transparent.
+
+Some notable examples include the deep-fake videos, restoring black and white photos, self driving cars, video games AIs, and sophisticated robotics (e.g. Boston Dynamics). 
+
+### ML: In the real world 
+
+#### Visual recognition 
+Despite seeing pictures on screens all the time, it's surprising to know that machines had no clue what it was looking at until recently. Developments in ML has enabled us to supply pictures of, for example, a cat and over time, machines will begin to discern which pictures have cats in them from data it hasn't seen yet. 
+
+#### Cancer treatment
+When it comes to diagnosing and treating cancer, there are innumerable variables to account for. ML can look through historical patient records and treatment plans to suggest treatment plans for the current patient, thereby expediting the process dramatically.
+
+#### User leaving your product
+No one wants to see a user go. Luckily in many cases, a user will demonstrate patterns indicative of an eminent departure. ML can classify a user's behavior as one that will likely leave soon.
+
+#### Stock market predictions
+People are deathly serious about their money, especially when it's their job. Those in the financial industry are always looking for a way to stay competitive and ahead of the curve. With decades of stock market data to pore over, companies have invested in having an AI determine what to do now based on the trends in the market its seen before. To buy or to sell — a classification problem. How much will this stock be valued tomorrow, a regression problem.
+
+### See for yourself
+ - Watson Personality Insights Demo
+ - Watson Natural Language Understanding
+ - Watson Tone Analyzer
+ - MIT Deepmoji 

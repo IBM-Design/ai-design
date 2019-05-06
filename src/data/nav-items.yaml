@@ -1,0 +1,39 @@
+- title: Fundamentals
+  pages:
+    - path: /fundamentals
+- title: Basics
+  pages:
+    - title: Overview
+      path: /basics/overview
+    - title: AI
+      path: /basics/ai
+    - title: ML
+      path: /basics/ml
+    - title: Data
+      path: /basics/data
+- title: Ethics
+  pages:
+    - title: Overview
+      path: /ethics/
+    - title: Accountability
+      path: /ethics/accountability
+    - title: Value Alignment
+      path: /ethics/value-alignment
+    - title: Explainability
+      path: /ethics/explainability
+    - title: Fairness
+      path: /ethics/fairness
+    - title: User Data Rights
+      path: /ethics/user-data-rights
+- title: Conversation
+  pages:
+    - title: Overview
+      path: /conversation/overview
+    - title: Design
+      path: /conversation/design
+- title: EDT+AI
+  pages:
+    - path: /edt-ai
+- title: Resources
+  pages:
+    - path: /resources
