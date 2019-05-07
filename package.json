@@ -10,11 +10,12 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build"
+    "build": "gatsby build",
+    "develop:clean": "trash .cache && gatsby develop"
   },
   "dependencies": {
     "gatsby": "^2.3.5",
-    "gatsby-theme-carbon": "0.2.4",
+    "gatsby-theme-carbon": "0.3.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }

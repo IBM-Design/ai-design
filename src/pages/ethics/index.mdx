@@ -2,7 +2,7 @@
 title: "Ethics"
 ---
 
-import { AnchorLinks, PageDescription, Video } from "gatsby-theme-carbon";
+import { AnchorLink, AnchorLinks, Column, PageDescription, ResourceCard, Row, Video } from "gatsby-theme-carbon";
 
 <PageDescription>
   This document represents the beginning of a conversation defining Everyday Ethics for AI. Ethics must be embedded into the design and development process from the very beginning of AI creation.
@@ -11,12 +11,28 @@ import { AnchorLinks, PageDescription, Video } from "gatsby-theme-carbon";
 </PageDescription>
 
 <AnchorLinks>
-  <a href="#">Accountability</a>
-  <a href="#">Value Alignment</a>
-  <a href="#">Explainability</a>
-  <a href="#">Fairness</a>
-  <a href="#">User Data Rights</a>
+  <AnchorLink href={"#"}>Accountability</AnchorLink>
+  <AnchorLink href={"#"}>Value Alignment</AnchorLink>
+  <AnchorLink href={"#"}>Explainability</AnchorLink>
+  <AnchorLink href={"#"}>Fairness</AnchorLink>
+  <AnchorLink href={"#"}>User Data Rights</AnchorLink>
 </AnchorLinks>
+
+<Row>
+<Column noGutterSm={true} colMd={2} colMd={3} colLg={4}>
+<ResourceCard
+  href={'ibm.com'}
+  subTitle={'Subtitle'}
+  title={'Title'} />
+</Column>
+<Column noGutterSm={true} colMd={2} colMd={3} colLg={4}>
+<ResourceCard
+  href={'ibm.com'}
+  subTitle={'Subtitle'}
+  title={'Title'} />
+</Column>
+</Row>
+
 
 # Introduction
 

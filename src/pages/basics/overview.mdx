@@ -2,7 +2,8 @@
 title: "Basics"
 ---
 
-import { AnchorLinks, PageDescription, Video } from "gatsby-theme-carbon";
+import { AnchorLinks, Column, PageDescription, ResourceCard, Row } from "gatsby-theme-carbon";
+
 
 <PageDescription>
   These are technical guides for non-technical people. Whether you’ve found yourself in need of knowing AI or have always been curious to learn more, this will teach you enough to dive deeper into the vast and deep AI ocean.
@@ -11,3 +12,20 @@ import { AnchorLinks, PageDescription, Video } from "gatsby-theme-carbon";
 </PageDescription>
 
 ## A short blurb will go here
+
+<Row>
+<Column noGutterSm={true} colMd={2} colMd={3} colLg={4}>
+<ResourceCard
+  href={'ibm.com'}
+  subTitle={'Subtitle'}
+  title={'Title'} />
+</Column>
+<Column noGutterSm={true} colMd={2} colMd={3} colLg={4}>
+<ResourceCard
+  href={'ibm.com'}
+  subTitle={'Subtitle'}
+  title={'Title'} />
+</Column>
+</Row>
+
+<Feedback />

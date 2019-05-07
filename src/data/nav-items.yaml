@@ -3,6 +3,8 @@
     - path: /fundamentals
 - title: Basics
   pages:
+    - title: Homepage
+      path: /basics/homepage
     - title: Overview
       path: /basics/overview
     - title: AI

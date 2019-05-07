@@ -2,20 +2,36 @@
 title: "Conversation"
 ---
 
-import { AnchorLinks, PageDescription, Video } from "gatsby-theme-carbon";
+import { AnchorLink, AnchorLinks, Column, PageDescription, ResourceCard, Row } from "gatsby-theme-carbon";
 
 <PageDescription>
   Now that machines, powered by analytics and cognitive capabilities, can technically understand, reason, learn and interact using natural language, what will they say when designers give them a voice?
 </PageDescription>
 
-<AnchorLinks>
-  <a href="#">Introduction</a>
-  <a href="#">Chatbots & Conversational Agents</a>
-  <a href="#">Chatbot & Agent Uses</a>
-  <a href="#">What is Conversation?</a>
-  <a href="#">Crafting Effective Conversation</a>
-  <a href="#">How does a bot interpret conversation?</a>
+<AnchorLinks small={true}>
+  <AnchorLink href={"#"}>Introduction</AnchorLink>
+  <AnchorLink href={"#"}>Chatbots & Conversational Agents</AnchorLink>
+  <AnchorLink href={"#"}>Chatbot & Agent Uses</AnchorLink>
+  <AnchorLink href={"#"}>What is Conversation?</AnchorLink>
+  <AnchorLink href={"#"}>Crafting Effective Conversation</AnchorLink>
+  <AnchorLink href={"#"}>How does a bot interpret conversation?</AnchorLink>
 </AnchorLinks>
+
+<Row>
+<Column noGutterSm={true} colSm={2} colMd={3} colLg={4}>
+<ResourceCard
+  href={'ibm.com'}
+  subTitle={'Subtitle'}
+  title={'Title'} />
+</Column>
+<Column noGutterSm={true} colSm={2} colMd={3} colLg={4}>
+<ResourceCard
+  href={'ibm.com'}
+  subTitle={'Subtitle'}
+  title={'Title'} />
+</Column>
+</Row>
+
 
 # Introduction
 Whereas traditional speech recognition systems understand what people say, today’s sophisticated natural language systems understand what people mean. And yet, the experience must walk a fine line: the bot must act like a human, with very human attributes (such as empathy, curiosity, humor, compassion, and patience) while maintaining the transparency of being a robot.

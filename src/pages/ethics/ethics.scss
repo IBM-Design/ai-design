@@ -1,7 +1,7 @@
 $pink-40: #FA75A6;
 
 .hr {
-  padding-top: 1.5rem;
+  padding-top: 4rem;
   position: relative;
 
   &:before {
@@ -22,6 +22,8 @@ $pink-40: #FA75A6;
 .consider,
 .questions,
 .example {
+  margin-bottom: 7.5rem;
+
   h4 {
     color: $pink-40;
     margin-bottom: 1.5rem;
