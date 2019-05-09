@@ -2,7 +2,8 @@
 title: "Basics"
 ---
 
-import { AnchorLinks, Column, PageDescription, ResourceCard, Row } from "gatsby-theme-carbon";
+import { AnchorLinks, ArticleCard, Column, PageDescription, ResourceCard, Row } from "gatsby-theme-carbon";
+import Feedback from "../../components/Feedback/Feedback"
 
 
 <PageDescription>
@@ -28,4 +29,39 @@ import { AnchorLinks, Column, PageDescription, ResourceCard, Row } from "gatsby-
 </Column>
 </Row>
 
-<Feedback />
+## Articles
+<Row>
+<Column colMd={2} colMd={3} colLg={4}>
+<ArticleCard
+  href={'/basics/ai'}
+  title={'Artificial Intelligence'}
+  date={'April 2020'}
+  readTime={'5 mins'} >
+
+![test](../../images/ethics/accountability/test.png)
+
+</ArticleCard>
+</Column>
+<Column colMd={2} colMd={3} colLg={4}>
+<ArticleCard
+  href={'/basics/ml'}
+  title={'Machine Learning'}
+  date={'April 2020'}
+  readTime={'5 mins'} >
+
+![test](../../images/ethics/accountability/test.png)
+
+</ArticleCard>
+</Column>
+<Column colMd={2} colMd={3} colLg={4}>
+<ArticleCard
+  href={'/basics/data'}
+  title={'Data'}
+  date={'April 2020'}
+  readTime={'5 mins'} >
+
+![test](../../images/ethics/accountability/test.png)
+
+</ArticleCard>
+</Column>
+</Row>

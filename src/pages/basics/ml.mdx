@@ -2,7 +2,7 @@
 title: "ML"
 ---
 
-import { AnchorLinks, PageDescription, Video } from "gatsby-theme-carbon";
+import { AnchorLinks, Column, PageDescription, Row, Video } from "gatsby-theme-carbon";
 
 <PageDescription>
   Add-on repositories, or repos, are components built for a specific product or
@@ -10,6 +10,8 @@ import { AnchorLinks, PageDescription, Video } from "gatsby-theme-carbon";
   teams to create their own custom components that follow Carbon's visual style
   and guidelines.
 </PageDescription>
+
+Read time | *7 mins*
 
 # What is machine learning?
 
@@ -38,11 +40,23 @@ Supervised learning specializes in predicting the future. This is split further 
 
 A classification problem might look something like this. You might have a shapes sheet which shows shapes and the name for each. 
 
+<Row>
+<Column colLg={6}>
+
 ![Shapes](../../images/basics/ml/Image_1.png)
+
+</Column>
+</Row>
 
 Your toddler would have a complete understanding if, say, all triangles had equal length sides. In order for your toddler to better understand triangles, you'd have to show her or him more examples. Doing this would build confidence in identifying triangular shapes.
 
+<Row>
+<Column colLg={6}>
+
 ![Triangles](../../images/basics/ml/Image_2.png)
+
+</Column>
+</Row>
 
 Consider the other type of supervised learning: predicting a value. Assume you're trying to predict how much your salary should be. Suppose you could see everyone's salary, by role, experience, responsibilities, band level, and other relevant information, you could then see who else falls closest to you, and choose a salary closest to them. This is called a regression problem.
 
@@ -53,7 +67,13 @@ Unsupervised learning finds commonalities and patterns in the input data. By ext
 
 Let’s use the example again of the toddler and the shapes. Suppose again you had a toddler group similar shapes together (Figure 3). The toddler will likely group, (or cluster), by shape, color, or size. This mode of learning is great for surfacing hidden connections or oddities in oceans of data.
 
+<Row>
+<Column colLg={12}>
+
 ![Different shapes clustered together by similar properties](../../images/basics/ml/Image_3.png)
+
+</Column>
+</Row>
 
 #### Reinforcement learning
 Reinforcement learning is about rewarding positive behavior and punishing negative behavior. Over time, this can determine the optimal behavior for a particular environment. 
@@ -75,7 +95,13 @@ Deep learning (DL) is a subset of machine learning, therefore everything you jus
 
 For now, just know that deep learning is machine learning that uses a NN with multiple hidden layers. If you want to even more, read [this] or watch [that].
 
+<Row>
+<Column colLg={6}>
+
 ![Deep learning is a subset of machine learning is a subset of AI](../../images/basics/ml/Image_4.png)
+
+</Column>
+</Row>
 
 DL is remarkable at making deep connections within the data because of neural networks. Neural networks come in many shapes and sizes, but are essential for making deep learning work. They take an input, and perform several rounds of math on its features for each layer, until it predicts an output. (Deep breath, the rules of ML still apply.) DL uses a specific subset of NN in order to work, (e.g. convolutional NN, recurrent NN).
 

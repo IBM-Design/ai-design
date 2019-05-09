@@ -1,5 +1,60 @@
----
-title: Home
----
+import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
+import { Column, ResourceCard, Row, Video } from "gatsby-theme-carbon";
+import './home.scss';
 
-# Test
+export default HomepageTemplate;
+
+
+<Row className="getting-started">
+<Column colMd={4} colLg={4} noGutterSm>
+
+#### Getting Started
+
+</Column>
+
+<Column colMd={3} colLg={4} noGutterSm>
+    <ResourceCard
+      className={'card'}
+      title="Fundamentals"
+      actionIcon="arrowRight"
+      aspectRatio="2:1"
+      href="/fundamentals"
+      dark />
+</Column>
+<Column colMd={3} colLg={4} noGutterSm>
+    <ResourceCard
+      className={'card'}
+      title="Ethics"
+      actionIcon="arrowRight"
+      aspectRatio="2:1"
+      href="/ethics/overview"
+      dark />
+</Column>
+<Column colMd={3} colLg={4} noGutterSm>
+    <ResourceCard
+      className={'card'}
+      title="Basics"
+      actionIcon="arrowRight"
+      aspectRatio="2:1"
+      href="/basics/overview"
+      dark />
+</Column>
+<Column colMd={3} colLg={4} noGutterSm>
+    <ResourceCard
+      className={'card'}
+      title="EDT+AI"
+      actionIcon="arrowRight"
+      aspectRatio="2:1"
+      href="/edt-ai"
+      dark />
+</Column>
+<Column colMd={3} colLg={4} noGutterSm>
+    <ResourceCard
+      className={'card'}
+      title="Resources"
+      actionIcon="arrowRight"
+      aspectRatio="2:1"
+      href="/resources"
+      dark />
+</Column>
+</Row>

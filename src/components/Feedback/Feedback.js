@@ -1,65 +1,71 @@
-import React from 'react'
-import TextArea from "carbon-components-react/lib/components/TextArea";
-import Button from "carbon-components-react/lib/components/Button";
-import InlineNotification from "carbon-components-react/lib/components/Notification";
+import React from 'react';
+import { TextArea, Button, InlineNotification } from 'carbon-components-react';
 
 class Feedback extends React.Component {
-  constructor(props){
-    super(props)
-    this.state = {
-      title: this.props.issueTitle,
-      body: '',
-      labels: this.props.labels
-    }
+  state = {
+    body: '',
+    showSuccess: false,
+  };
 
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-    this.sendToServer = this.sendToServer.bind(this);
-  }
-
-  handleChange(e) {
+  handleChange = e => {
     e.preventDefault();
-    this.setState(Object.assign({}, this.state, {body: e.target.value}));
+    this.setState(Object.assign({}, this.state, { body: e.target.value }));
+    this.setState({
+      body: e.target.value,
+    });
 
     /* TODO Toggling disabled doesn't work */
     if (this.state.body !== '') {
       document.querySelector('button[type=submit]').removeAttribute('disabled');
-    }
-
-    else {
+    } else {
       document.querySelector('button[type=submit]').disabled = true;
     }
-  }
+  };
 
-  handleSubmit(e) {
-    e.preventDefault()
-    this.sendToServer()
-  }
+  handleSubmit = e => {
+    e.preventDefault();
+    this.sendToServer();
+  };
 
+  sendToServer = () => {
+    // var showSuccess = (response) => {
+    //   document.querySelector('.success.hidden').classList.remove('hidden');
+    // };
 
-  sendToServer() {
-    var showSuccess = (response) => {
-      document.querySelector('.success.hidden').classList.remove('hidden');
-    };
-
-    var showError = (error) => {
+    const showError = error => {
       document.querySelector('.error.hidden').classList.remove('hidden');
     };
 
-    var url = '/issue';
+    const url = '/issue';
     // var url = 'https://api.github.ibm.com/repos/ai-sandbox/feedback/issues';
 
     fetch(url, {
       method: 'POST',
       body: JSON.stringify(this.state), // data can be `string` or {object}!
       headers: {
-        'Content-Type': 'application/json'
-      }
+        'Content-Type': 'application/json',
+      },
     })
-    .then((response) => { console.log(response.body) })
-    .catch((error) => { showError(error) });
-  }
-
+      .then(response => {
+        console.log(response.body);
+        this.setState(
+          {
+            showSuccess: true,
+          },
+          setTimeout(() => {
+            this.setState(
+              {
+                showSuccess: false,
+              },
+              2000
+            );
+          })
+        );
+      })
+      .catch(error => {
+        showError(error);
+      });
+  };
 
   render() {
     return (
@@ -69,9 +75,10 @@ class Feedback extends React.Component {
           helperText="What questions do you have after reading this material?"
           className="feedback"
           placeholder="How do you get so awesome?!"
-          onChange={this.handleChange}/>
+          onChange={this.handleChange}
+        />
 
-        <Button disabled type="submit" >
+        <Button disabled type="submit">
           Submit
         </Button>
 
@@ -79,16 +86,18 @@ class Feedback extends React.Component {
           kind="success"
           title="Success"
           subtitle="We got it. Thanks!"
-          className="success hidden"/>
+          className="success hidden"
+        />
 
         <InlineNotification
           kind="error"
           title="Uh oh"
           subtitle="There was a server issue. Try again later."
-          className="error hidden"/>
+          className={`error ${this.state.showSuccess ? 'hidden' : ''}`}
+        />
       </form>
-    )
+    );
   }
 }
 
-export default Feedback
+export default Feedback;
