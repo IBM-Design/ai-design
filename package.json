@@ -11,7 +11,8 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "develop:clean": "trash .cache && gatsby develop"
+    "develop:clean": "trash .cache && gatsby develop",
+    "now-build": "npm run build"
   },
   "dependencies": {
     "gatsby": "^2.3.5",

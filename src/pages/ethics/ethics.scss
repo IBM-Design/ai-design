@@ -22,19 +22,19 @@ $pink-40: #FA75A6;
 .consider,
 .questions,
 .example {
-  margin-bottom: 7.5rem;
+  margin-bottom: 5rem;
 
-  h4 {
-    color: $pink-40;
-    margin-bottom: 1.5rem;
+  ul {
+    width: 100%;
   }
 }
 
 .opener {
   margin-bottom: 5rem;
 
-  h2 {
+  h3 {
     margin-top: 0;
+    width: 100%;
   }
 }
 
