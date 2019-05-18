@@ -1,7 +1,7 @@
 $pink-40: #FA75A6;
 
 .hr {
-  padding-top: 4rem;
+  padding-top: 1.5rem;
   position: relative;
 
   &:before {
@@ -24,9 +24,19 @@ $pink-40: #FA75A6;
 .example {
   margin-bottom: 5rem;
 
+  h2 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+
   ul {
     width: 100%;
   }
+}
+
+// TODO Change per breakpoint
+.recommendation:nth-of-type(n+5) {
+  margin-top: 3rem;
 }
 
 .opener {
@@ -41,5 +51,5 @@ $pink-40: #FA75A6;
 .recommended,
 .consider,
 .questions {
-  margin-bottom: 7.5rem;
+  margin-bottom: 5rem;
 }
