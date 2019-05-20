@@ -2,14 +2,43 @@
 
 }
 
+.banner-text {
+  font-size: 3.75rem;
+  font-weight: 300;
+  line-height: 1.2;
+  padding-bottom: 1.5rem !important;
+  max-width: 36rem;
+  width: 90%;
+}
+
 .getting-started {
+  max-width: 74.25rem;
   padding-top: 2.375rem;
-  padding-bottom: 8.125rem;
+  padding-bottom: 3rem;
 
   .card {
-    background-color: #282828;
-    border: .0625rem solid #171717;
+    border: .0625rem solid #E373BE;
+
+    a {
+      background-color: #161616;
+    }
+
+    h4 {
+      font-size: 1.75rem;
+      font-weight: 300;
+      line-height: 1.2;
+    }
   }
+
+  h5 {
+    font-size: 1.25rem;
+  }
+}
+
+// TODO remove
+.temp {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .contribute {
@@ -19,4 +48,21 @@
   h4 {
     margin-top: 0 !important;
   }
+}
+
+.callout {
+
+
+  div {
+    padding: 0;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+}
+
+.hidden {
+  display: none;
 }

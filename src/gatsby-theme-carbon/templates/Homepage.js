@@ -7,9 +7,9 @@ import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 import Carbon from '../../images/hero.png';
 
 const FirstLeftText = () => (
-  <p>
+  <h5>
     Our Mission
-  </p>
+  </h5>
 );
 
 const FirstRightText = () => (
@@ -38,20 +38,19 @@ const SecondRightText = () => (
 );
 
 const BannerText = () => (
-  <h1>
-    Carbon
-    <br />
-    Design System
+  <h1 class='banner-text'>
+    To design for a relationship with AI, we need to know ourselves first.
   </h1>
 );
 
 const customProps = {
-  Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,
+  Banner: <HomepageBanner className={'banner'} renderText={BannerText} image={Carbon} />,
   FirstCallout: (
-    <HomepageCallout leftText={FirstLeftText} rightText={FirstRightText} />
+    <HomepageCallout className={'callout'} leftText={FirstLeftText} rightText={FirstRightText} />
   ),
   SecondCallout: (
     <HomepageCallout
+      className={'hidden'}
       leftText={SecondLeftText}
       rightText={SecondRightText}
       color="white"

@@ -1,14 +1,10 @@
 import React from 'react';
 import Header from 'gatsby-theme-carbon/src/components/Header';
 
-const DefaultHeaderText = () => (
-  <>
-    IBM&nbsp;<span>AI Design</span>
-  </>
+const CustomSwitcher = props => (
+  <Header {...props}>
+    IBM&nbsp;<span>Design</span>&nbsp;for AI
+  </Header>
 );
 
-const CustomHeader = props => (
-  <Header children={DefaultHeaderText} />
-);
-
-export default CustomHeader;
+export default CustomSwitcher;
