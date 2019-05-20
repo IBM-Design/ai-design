@@ -9,6 +9,7 @@ import { AnchorLink, AnchorLinks, PageDescription, Video } from "gatsby-theme-ca
 </PageDescription>
 
 <AnchorLinks>
+  <AnchorLink href={"#"}>Guiding principles</AnchorLink>
   <AnchorLink href={"#"}>Establish its purpose</AnchorLink>
   <AnchorLink href={"#"}>Determine topic breadth</AnchorLink>
   <AnchorLink href={"#"}>Determine topic depth</AnchorLink>
@@ -16,11 +17,28 @@ import { AnchorLink, AnchorLinks, PageDescription, Video } from "gatsby-theme-ca
   <AnchorLink href={"#"}>Build your Bot</AnchorLink>
 </AnchorLinks>
 
+# Guiding principles
+ - Start small and iterate
+ - Research, research, research
+ - Talk to real users and validate often
+
 # Establish its purpose
 Now that you understand more about bots and conversation, it’s time to start preparing for the actual building. Using the concepts form the learning phase, you will be developing a plan BEFORE sitting down in your tooling to write content.
 
-Justify a bot as the solution
-Always remember that bots aren't an instant solution to problems facing your business or brand. The reasoning behind using a bot as a solution shouldn’t be just because the technology exists. The reasoning must be based on the real value natural conversation would bring to your users and brand. Implementing conversation has it's highest value when there is a need for engaging, contextual interaction, or a bot can accomplish something faster than traditional means.
+#### Six core AI intents
+First and foremost, you must establish the purpose for your bot. This will be the basis of all of your conversational content and functionality. The most common reasons to use AI are to:
+
+ 1. Accelerate research and discovery
+ 1. Enrich your interactions
+ 1. Anticipate and preempt disruptions
+ 1. Recommend with confidence
+ 1. Scale expertise and learning
+ 1. Detect liabilities and mitigate risks
+
+Narrowing your intent helps focus your work and accomplish a manageable number of tasks with higher quality. The probability of success is best correlated with how focused your bot is. Having a clear understanding of the focus also helps you communicate what exactly your bot can do so you avoid unrealistic expectations of the bot.
+
+#### Justify a bot as the solution
+Always remember that bots aren't an instant solution to problems facing your business or brand. The reasoning behind using a bot as a solution shouldn’t be just because the technology exists. The reasoning must be based on the real value natural conversation would bring to your users and brand. Implementing conversation has its highest value when there is a need for engaging, contextual interaction, or a bot can accomplish something faster than traditional means.
 
 Before choosing a bot as a solution, ask yourself these questions.
 
@@ -28,28 +46,22 @@ Before choosing a bot as a solution, ask yourself these questions.
  - How in-depth is the assistance the user will need?
  - Is your domain something that is better off left in the hands of human assistance?
  - How is a bot superior to "x" (i.e. online documentation, contextual support, wizards, etc...)?
- - What kind of data sources or abilities can this bot leverage for your business and your users?
 
-Establish your bot's purpose
-First and foremost, you must establish the purpose for your bot. This will be the basis of all of your conversational content and functionality. Start by justifying conversation as a solution.
-
- - Understand why you would choose conversation over other options
- - Determine the specific value a bot will bring
- = Understand what your users want/expect from a bot
-
-Narrowing your intent helps focus your work and accomplish a manageable number of tasks with higher quality. The probability of success is best correlated with how focused your bot is. Having a clear understanding of the focus also helps you communicate what exactly your bot can do so you avoid unrealistic expectations of the bot.
-
-#### EXAMPLE
+##### EXAMPLE
 Let’s say one of your clients is a bank named Big Blue Bank. The bank has expressed interest in some sort of virtual agent that they can interact with when the bank is closed. This is not just for online banking, but to make users feel the same personal trust and connection they feel when speaking with a bank teller. Your bot’s purpose would be to provide a trustworthy, personable bot that assists Big Blue Bank customers with any banking or customer service needs at any hour.
 
 
 
 # Determine Topic Breadth
-Topics provide context. They are the high-level subjects of a conversation at a given point. A way to think about topics is through the concept of "Minimum Viable Knowledge" or MVK. This is the minimum set of topics your bot will need to be able to discuss in order to be successful and fulfill its purpose. If you have those, then you set your bot up with a strong foundation.
+The primary goal of bot planning is to determine a bot’s “Minimum Viable Knowledge”, or MVK. This is the minimum set of topics your bot will need to be able to proficiently discuss in order to be successful and fulfill its purpose. If you have those, then you set your bot up with a strong foundation.
 
-As an activity, list out all the possible topics you can think of for your bot, then prioritize.
+The steps to achieving your MVK is twofold: 1. Determining which topics are needed and 2. How deep each topic should be covered.
 
-#### EXAMPLE
+First, list out all the possible topics you can think of for your bot. Then, prioritize. The fewer and more focused, the more likely your bot will be successful.
+
+> Topics are the high-level subjects of a conversation at a given point. They provide context.
+
+##### EXAMPLE
 After doing your research and deciding your bot's purpose it should start to become to clear what your topics will be. These are the subjects of the conversation. For Big Blue Bank, these could be some starter topics for an MVK.
 
  - Opening a new account
@@ -58,29 +70,21 @@ After doing your research and deciding your bot's purpose it should start to bec
  - Withdrawals
  - Loans
  - Basic Self-serve Customer Service
-
-
 
 # Determine Topic Depth
-Topics provide context. They are the high-level subjects of a conversation at a given point. A way to think about topics is through the concept of "Minimum Viable Knowledge" or MVK. This is the minimum set of topics your bot will need to be able to discuss in order to be successful and fulfill its purpose. If you have those, then you set your bot up with a strong foundation.
+After determining which topics are of utmost importance given your bot’s intent, it’s time to map out how fluently it should be able to speak about each one.
 
-As an activity, list out all the possible topics you can think of for your bot, then prioritize.
+Each topic will require you not only to design all possible ideal paths, but all possible precautions for when the bot fails to understand the user. In the moments where the user has strayed outside of your bot’s capabilities, irritation and frustration can naturally follow. This ability to elegantly fail and repair the conversation is paramount for displaying provable authenticity and building trust.
 
-#### EXAMPLE
-After doing your research and deciding your bot's purpose it should start to become to clear what your topics will be. These are the subjects of the conversation. For Big Blue Bank, these could be some starter topics for an MVK.
+At this step, start with a topic and flesh out the individual turns between the human and bot until it reaches a dead end. It helps to start with the ideal path(s), and from there branch off into all of the possible ways mistakes or deviations can get made along the way.
 
- - Opening a new account
- - Money transfers
- - Deposits
- - Withdrawals
- - Loans
- - Basic Self-serve Customer Service
+##### EXAMPLE
+Big Blue Bank decides that opening a new account is the lowest hanging fruit.
 
 
 
 # Design Your Bot's Personality
-
-This step comes later in the process because without all of the proper planning you have done up to this point you will be ill- prepared to identify the proper personality for your bot. Since a bot’s personality will be the "being" that the user will interact with in the end product, it needs to properly reflect the conversational tendencies of its particular domain.
+Personality follows the MVK, because solving the user’s need is first priority. Also, without all of the proper planning, you will be ill-prepared to identify the proper personality for your bot. Since a bot’s personality will be the "being" that the user will interact with in the end product, it needs to properly reflect the conversational tendencies of its particular domain.
 
 Humans mostly want to connect with each other, not technology. That’s why we have the tendency to anthropomorphize everything, from our cars to our devices. If you don't establish a personality for your bot, your users will still give it one.
 
@@ -100,9 +104,9 @@ Ask yourselves these questions when developing your bot's personality:
  - What medium will it utilize?
  - What is it not like?
 
-There are lots of different ways to come up with a personality, and all of them are correct. You might consider thinking about personality mapping techniques includingthe Caliper Profile, orThe Myers & Briggs Type Indicator. There is no set method.
+There are lots of different ways to come up with a personality, and all of them are correct. You might consider thinking about personality mapping techniques including the Caliper Profile, or the Myers & Briggs Type Indicator. **There is no set method.**
 
-#### EXAMPLE
+##### EXAMPLE
 For Big Blue Bank, you may consider striking a balance between an official tone and a friendly, trusting tone. Look at the most successful banking employees with great relationships with their customers. How do they act? In what situations do they joke around, and in what situations are they serious?
 
 
