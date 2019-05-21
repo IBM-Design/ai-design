@@ -21,12 +21,24 @@
 
     a {
       background-color: #161616;
+      transition: background-color .15s ease-out;
     }
 
     h4 {
       font-size: 1.75rem;
       font-weight: 300;
       line-height: 1.2;
+    }
+
+    &:hover {
+
+      a {
+        background-color: rgb(209,77,171);
+        background-color: -moz-linear-gradient(45deg, rgba(209,77,171,1) 0%, rgba(139,63,251,1) 100%);
+        background-color: -webkit-linear-gradient(45deg, rgba(209,77,171,1) 0%, rgba(139,63,251,1) 100%);
+        background-color: linear-gradient(45deg, rgba(209,77,171,1) 0%, rgba(139,63,251,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d14dab",endColorstr="#8b3ffb",GradientType=1);
+      }
     }
   }
 
@@ -65,4 +77,22 @@
 
 .hidden {
   display: none;
+}
+
+.show-on-small {
+  display: none;
+}
+
+.hide-on-small {
+  display: block;
+}
+
+@media (max-width: 672px) {
+  .show-on-small {
+    display: block;
+  }
+
+  .hide-on-small {
+    display: none;
+  }
 }
