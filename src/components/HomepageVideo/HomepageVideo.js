@@ -56,7 +56,45 @@ class HomepageVideo extends Component {
             poster={poster}
             src={src}
             overlay={true}
-            cornerPlayButton={true}>
+            cornerPlayButton={true}
+          >
+            <div
+              className={`${prefix}--homepage-video-overlay-content ${prefix}--grid`}
+            >
+              <div
+                className={`${prefix}--homepage-video-container-cta ${prefix}--row`}
+              >
+                <div className={`${prefix}--homepage-video-callout ${prefix}--col-sm-4 ${prefix}--col-md-4 ${prefix}--col-lg-4`}>
+                  <h1>To design for a relationship with AI, we need to know ourselves first.</h1>
+                </div>
+                <Link
+                  className={`${prefix}--homepage-video-cta ${prefix}--col-sm-0 ${prefix}--col-md-2 ${prefix}--col-lg-4`}
+                  to="/fundamentals/"
+                >
+                  <p className={`${prefix}--type-expressive-heading-03`}>
+                    Fundamentals
+                  </p>
+                  <div className={`${prefix}--homepage-video-arrow-container`}>
+                    <ArrowRight20
+                      className={`${prefix}--homepage-video-cta-icon`}
+                    />
+                  </div>
+                </Link>
+                <Link
+                  className={`${prefix}--homepage-video-cta ${prefix}--col-sm-0 ${prefix}--col-md-2 ${prefix}--col-lg-4`}
+                  to="/resources/"
+                >
+                  <p className={`${prefix}--type-expressive-heading-03`}>
+                    Resources
+                  </p>
+                  <div className={`${prefix}--homepage-video-arrow-container`}>
+                    <ArrowRight20
+                      className={`${prefix}--homepage-video-cta-icon`}
+                    />
+                  </div>
+                </Link>
+              </div>
+            </div>
           </VideoInternal>
         </div>
       </div>

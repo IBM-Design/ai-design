@@ -53,6 +53,17 @@
   }
 }
 
+.#{$prefix}--homepage-video-callout {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  vertical-align: bottom;
+
+  h1 {
+    font-size: 3.75rem;
+    font-weight: 300;
+  }
+}
+
 .#{$prefix}--homepage-video-cta {
   color: $carbon--white-0;
   text-decoration: none;

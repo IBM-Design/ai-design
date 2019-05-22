@@ -47,8 +47,8 @@ const BannerText = () => (
 const customProps = {
   Banner: (
     <HomepageVideo
-      src="https://design-language-api.mybluemix.net/videos/landing-hero-video.mp4"
-      poster="https://design-language-api.mybluemix.net/images/hero-video-poster.jpg"
+      src="/hero.mp4"
+      poster="/images/hero.png"
     />),
   FirstCallout: (
     <HomepageCallout className={'callout'} leftText={FirstLeftText} rightText={FirstRightText} />
