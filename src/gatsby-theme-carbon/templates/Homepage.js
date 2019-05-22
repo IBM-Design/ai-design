@@ -1,5 +1,6 @@
 import React from 'react';
 import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
+import HomepageVideo  from '../../components/HomepageVideo';
 
 // Component to be shadowed
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
@@ -44,7 +45,11 @@ const BannerText = () => (
 );
 
 const customProps = {
-  Banner: <HomepageBanner className={'banner'} renderText={BannerText} image={Carbon} />,
+  Banner: (
+    <HomepageVideo
+      src="https://design-language-api.mybluemix.net/videos/landing-hero-video.mp4"
+      poster="https://design-language-api.mybluemix.net/images/hero-video-poster.jpg"
+    />),
   FirstCallout: (
     <HomepageCallout className={'callout'} leftText={FirstLeftText} rightText={FirstRightText} />
   ),
