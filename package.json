@@ -10,7 +10,7 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build",
+    "build": "rm -rf public && PATH_PREFIX='/design' gatsby build  --prefix-paths && mv public design && mkdir public && mv design public",
     "develop:clean": "trash .cache && gatsby develop",
     "now-build": "npm run build"
   },
