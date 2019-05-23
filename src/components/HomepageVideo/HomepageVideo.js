@@ -64,11 +64,11 @@ class HomepageVideo extends Component {
               <div
                 className={`${prefix}--homepage-video-container-cta ${prefix}--row`}
               >
-                <div className={`${prefix}--homepage-video-callout ${prefix}--col-sm-4 ${prefix}--col-md-4 ${prefix}--col-lg-4`}>
+                <div className={`${prefix}--homepage-video-callout ${prefix}--col-sm-4 ${prefix}--col-md-4 ${prefix}--col-lg-6`}>
                   <h1>To design for a relationship with AI, we need to know ourselves first.</h1>
                 </div>
                 <Link
-                  className={`${prefix}--homepage-video-cta ${prefix}--col-sm-0 ${prefix}--col-md-2 ${prefix}--col-lg-4`}
+                  className={`${prefix}--homepage-video-cta ${prefix}--col-sm-0 ${prefix}--col-md-2 ${prefix}--col-lg-3`}
                   to="/fundamentals/"
                 >
                   <p className={`${prefix}--type-expressive-heading-03`}>
@@ -81,7 +81,7 @@ class HomepageVideo extends Component {
                   </div>
                 </Link>
                 <Link
-                  className={`${prefix}--homepage-video-cta ${prefix}--col-sm-0 ${prefix}--col-md-2 ${prefix}--col-lg-4`}
+                  className={`${prefix}--homepage-video-cta ${prefix}--col-sm-0 ${prefix}--col-md-2 ${prefix}--col-lg-3`}
                   to="/resources/"
                 >
                   <p className={`${prefix}--type-expressive-heading-03`}>

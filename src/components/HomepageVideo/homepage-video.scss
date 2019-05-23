@@ -91,16 +91,16 @@
   }
 
   &:hover {
-    background: $carbon--white-0;
-    color: $carbon--gray-100;
+    background: $carbon--gray-90;
+    // color: $carbon--gray-100;
     text-decoration: none;
 
     svg {
-      fill: $carbon--gray-100;
+      // fill: $carbon--gray-100;
     }
 
     p {
-      color: $carbon--gray-100;
+      // color: $carbon--gray-100;
     }
   }
 
