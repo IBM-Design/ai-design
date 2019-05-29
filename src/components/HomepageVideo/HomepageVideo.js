@@ -68,7 +68,7 @@ class HomepageVideo extends Component {
                   className={`${prefix}--homepage-video-cta ${prefix}--col-md-2 ${prefix}--col-lg-4`}
                   to="/fundamentals/"
                 >
-                  <p className={`${prefix}--type-expressive-heading-03`}>
+                  <p className={`white ${prefix}--type-expressive-heading-03`}>
                     Fundamentals
                   </p>
                   <div className={`${prefix}--homepage-video-arrow-container`}>
@@ -81,7 +81,7 @@ class HomepageVideo extends Component {
                   className={`${prefix}--homepage-video-cta ${prefix}--col-md-2 ${prefix}--col-lg-4`}
                   to="/resources/"
                 >
-                  <p className={`${prefix}--type-expressive-heading-03`}>
+                  <p className={`white ${prefix}--type-expressive-heading-03`}>
                     Resources
                   </p>
                   <div className={`${prefix}--homepage-video-arrow-container`}>

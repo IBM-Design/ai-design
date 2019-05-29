@@ -17,6 +17,8 @@ const FirstLeftText = () => (
 
 const FirstRightText = () => (
   <p>
+    <strong>To design for a relationship with AI, we need to know ourselves first.</strong>
+    <br/><br/>
     Discovering and enacting the path to safe artificial general intelligence.
   Our practice is built on IBM’s Principles for the AI Era as a resource for
     all designers and developers. This shared collection of ethics, guidelines,

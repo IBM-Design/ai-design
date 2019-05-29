@@ -1,6 +1,9 @@
 - title: Fundamentals
   pages:
     - path: /fundamentals
+- title: Team Essentials for AI
+  pages:
+    - path: /team-essentials-for-ai
 - title: Basics
   pages:
     - title: Overview
@@ -31,9 +34,6 @@
       path: /conversation/overview
     - title: Design
       path: /conversation/design
-- title: EDT+AI
-  pages:
-    - path: /edt-ai
 - title: Resources
   pages:
     - path: /resources
