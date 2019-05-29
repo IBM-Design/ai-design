@@ -1,11 +1,13 @@
 import React from 'react';
-import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
+import { HomepageCallout } from 'gatsby-theme-carbon';
 import HomepageVideo  from '../../components/HomepageVideo';
-
-// Component to be shadowed
+import { settings } from "carbon-components";
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 
-import Carbon from '../../images/hero.png';
+const { prefix } = settings;
+
+// Component to be shadowed
+
 
 const FirstLeftText = () => (
   <h5>

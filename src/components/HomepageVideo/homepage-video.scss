@@ -42,6 +42,7 @@
 
 .#{$prefix}--homepage-video-container-cta {
   width: 100%;
+  max-width: 74.25rem;
   height: 100%;
   flex-direction: column;
   position: relative;
@@ -91,8 +92,12 @@
   }
 
   &:hover {
-    background: $carbon--gray-90;
-    // color: $carbon--gray-100;
+    background: rgb(209,77,171);
+    background: -moz-linear-gradient(45deg, rgba(209,77,171,.85) 0%, rgba(139,63,251,.85) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(209,77,171,.85) 0%, rgba(139,63,251,.85) 100%);
+    background: linear-gradient(45deg, rgba(209,77,171,.85) 0%, rgba(139,63,251,.85) 100%);
+    color: $carbon--gray-100;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d14dab",endColorstr="#8b3ffb",GradientType=1);
     text-decoration: none;
 
     svg {

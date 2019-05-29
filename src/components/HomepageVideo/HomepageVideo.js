@@ -14,8 +14,8 @@ class HomepageVideo extends Component {
   };
 
   static defaultProps = {
-    poster: "images/hero-video-poster.jpg",
-    src: "videos/hero-video.mp4"
+    poster: "hero.png",
+    src: "hero.mp4"
   };
 
   componentDidMount() {
@@ -55,7 +55,7 @@ class HomepageVideo extends Component {
             loop={loop}
             poster={poster}
             src={src}
-            overlay={true}
+            overlay={false}
             cornerPlayButton={true}
           >
             <div
@@ -64,11 +64,8 @@ class HomepageVideo extends Component {
               <div
                 className={`${prefix}--homepage-video-container-cta ${prefix}--row`}
               >
-                <div className={`${prefix}--homepage-video-callout ${prefix}--col-sm-4 ${prefix}--col-md-4 ${prefix}--col-lg-6`}>
-                  <h1>To design for a relationship with AI, we need to know ourselves first.</h1>
-                </div>
                 <Link
-                  className={`${prefix}--homepage-video-cta ${prefix}--col-sm-0 ${prefix}--col-md-2 ${prefix}--col-lg-3`}
+                  className={`${prefix}--homepage-video-cta ${prefix}--col-md-2 ${prefix}--col-lg-4`}
                   to="/fundamentals/"
                 >
                   <p className={`${prefix}--type-expressive-heading-03`}>
@@ -81,7 +78,7 @@ class HomepageVideo extends Component {
                   </div>
                 </Link>
                 <Link
-                  className={`${prefix}--homepage-video-cta ${prefix}--col-sm-0 ${prefix}--col-md-2 ${prefix}--col-lg-3`}
+                  className={`${prefix}--homepage-video-cta ${prefix}--col-md-2 ${prefix}--col-lg-4`}
                   to="/resources/"
                 >
                   <p className={`${prefix}--type-expressive-heading-03`}>
