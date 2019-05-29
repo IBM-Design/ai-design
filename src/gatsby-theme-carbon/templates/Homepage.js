@@ -51,8 +51,8 @@ const BannerText = () => (
 const customProps = {
   Banner: (
     <HomepageVideo
-      src="/hero.mp4"
-      poster="/images/hero.png"
+      src="hero.mp4"
+      poster="hero.png"
     />),
   FirstCallout: (
     <HomepageCallout className={'callout'} leftText={FirstLeftText} rightText={FirstRightText} />
