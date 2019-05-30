@@ -7,7 +7,7 @@
 - title: Basics
   pages:
     - title: Overview
-      path: /basics/overview
+      path: /basics/
     - title: AI
       path: /basics/ai
     - title: ML
@@ -31,7 +31,7 @@
 - title: Conversation
   pages:
     - title: Overview
-      path: /conversation/overview
+      path: /conversation
     - title: Design
       path: /conversation/design
 - title: Resources
