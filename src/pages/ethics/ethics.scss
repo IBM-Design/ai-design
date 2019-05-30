@@ -1,5 +1,9 @@
 $pink-40: #FA75A6;
 
+.quote {
+  margin-top: 1.5rem;
+}
+
 .hr {
   padding-top: 1.5rem;
   position: relative;
@@ -12,7 +16,7 @@ $pink-40: #FA75A6;
     position: absolute;
     top: 0;
     transform: translateX(-50%);
-    width: calc(100% - 4rem);
+    width: calc(100% - 2rem);
   }
 }
 
@@ -52,4 +56,22 @@ $pink-40: #FA75A6;
 .consider,
 .questions {
   margin-bottom: 5rem;
+}
+
+.show-on-small {
+  display: none;
+}
+
+.hide-on-small {
+  display: block;
+}
+
+@media (max-width: 672px) {
+  .show-on-small {
+    display: block;
+  }
+
+  .hide-on-small {
+    display: none;
+  }
 }
