@@ -1,8 +1,19 @@
 $pink-40: #FA75A6;
 
+.ethicsBg {
+  background: url(../../images/ethics/Image_2.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  margin-top: 5rem;
+  min-height: 30rem;
+}
+
 .quote {
   margin-top: 1.5rem;
-  margin-bottom: 5rem;
+  margin-bottom: -3rem;
 
   p {
     width: 100%;

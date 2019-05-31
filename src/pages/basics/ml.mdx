@@ -1,5 +1,5 @@
 ---
-title: "ML"
+title: "Machine Learning"
 ---
 
 import { AnchorLinks, Column, PageDescription, Row, Video } from "gatsby-theme-carbon";
@@ -34,12 +34,10 @@ There are a few distinct ways that machines can learn. In most cases, it'll fall
 
 Remember that we as humans also have discrete learning styles. Sometimes we learn by watching videos and reading books; other times we acquire knowledge based on hearing it in context. There are also learning certain tasks that require a specific learning style. For example, we can always read about baseball, but if we want to hit a ball, there's no amount of reading that can substitute practicing swinging a bat. This separation in learning styles is the basic idea behind the different branches of ML.
 
-#### Supervised learning
+### Supervised learning
 Supervised learning specializes in predicting the future. This is split further depending on whether it's predicting a thing or a number, called classification or regression, respectively. To understand how this works, you start with the data. All supervised learning algorithms need what’s called labeled data. This data is grouped into samples that have been tagged with one or more labels. In other words, applying supervised learning requires you to tell your model 1. what the key characteristics of a thing are (called features); and 2. what that thing actually is. 
 
-To demonstrate the former, let's take the example of teaching a child their shapes. 
-
-This is classification problem and starts by giving the child a shapes sheet, which shows shapes and the shape’s corresponding name. 
+To demonstrate the former, let's take the example of teaching a child their shapes. This is classification problem and starts by giving the child a shapes sheet, which shows shapes and the shape’s corresponding name. 
 
 <Row>
 <Column colLg={6}>
@@ -63,13 +61,11 @@ Triangles are a little more complex. Based on the shapes sheet, your child might
 
 After consuming these additional examples, your child would learn that the key feature of a triangle is having three sides, but also that those sides can be of varying lengths, unlike the square.
 
-Now let’s consider the other type of supervised learning: predicting a value.
-
-Let’s say you're trying to predict how much your salary should be. Assume you could see everyone else’s pay, along with their roles, experience, responsibilities, band level, and other relevant information. You could then use this data to see whose situations are closest to yours (ie. people with similar roles, experience, responsibilities, etc.), and determine what your salary range should look like based on what those folks are being paid. This is called a regression problem.
+Now let’s consider the other type of supervised learning: predicting a value. Let’s say you're trying to predict how much your salary should be. Assume you could see everyone else’s pay, along with their roles, experience, responsibilities, band level, and other relevant information. You could then use this data to see whose situations are closest to yours (ie. people with similar roles, experience, responsibilities, etc.), and determine what your salary range should look like based on what those folks are being paid. This is called a regression problem.
 
 In a nutshell, supervised learning is about providing your AI with enough examples to make accurate predictions.
 
-#### Unsupervised learning
+### Unsupervised learning
 Unsupervised learning finds commonalities and patterns in the input data on its own. By extension, it's also commonly used to find outliers and anomalies in a dataset. Most unsupervised learning focuses on clustering—that is, grouping the data by some set of characteristics or features. This is the same “features” mentioned in supervised learning, although unsupervised learning doesn't use labeled data.
 
 Let’s use the example again of the child and the shapes. Suppose again that you had a child group similar shapes together (Figure 3). The child will likely group, (or cluster), by shape, color, or size. This mode of learning is great for surfacing hidden connections or oddities in oceans of data.
@@ -82,7 +78,7 @@ Let’s use the example again of the child and the shapes. Suppose again that yo
 </Column>
 </Row>
 
-#### Reinforcement learning
+### Reinforcement learning
 Reinforcement learning is about rewarding positive behavior and punishing negative behavior. Over time, this can help your AI determine the optimal behavior for a particular environment or situation. 
 
 Think back to your childhood. When you were at school or at home, what happened when you did something bad? You probably got scolded, grounded, or a long lecture. What happened when you did something good?  Maybe you got praise or gifts. Rewarding the "right" behavior and punishing the "wrong" behavior is the cornerstone of reinforcement learning; that is you give your agent positive reinforcement for doing the right thing and negative reinforcement for the wrong things. 
@@ -93,11 +89,9 @@ The ingredients of a reinforcement learning problem are: 
  - a way for the agent to interact with its environment, and 
  - a way for the agent to get feedback on its actions within the environment (called a reward function or feedback function).
 
-[AI example]
-
 ML isn't magic; it's math. Statistics, probability, linear algebra, and algorithms are what bring ML to life.
 
-#### Deep learning and neural networks
+### Deep learning and neural networks
 Deep learning (DL) is a subset of machine learning, therefore everything you just learned still applies. The motivation is still trying to predict an output given a set of inputs, and either supervised learning or unsupervised learning can be used. The key differences are performance and how it works. 
 
 For now, just know that deep learning is machine learning that uses a neural network with multiple hidden layers. If you want to even more, read [this] or watch [that].
@@ -117,21 +111,21 @@ The caveat to NN are that in order to be powerful, they need a lot of data and t
 
 Some notable examples include the deep-fake videos, restoring black and white photos, self driving cars, video games AIs, and sophisticated robotics (e.g. Boston Dynamics). 
 
-### ML: In the real world 
+## ML: In the real world 
 
-#### Visual recognition 
+### Visual recognition 
 Despite seeing pictures on screens all the time, it's surprising to know that machines had no clue what it was looking at until recently. Developments in ML has enabled us to supply pictures of, for example, a cat and over time, machines will begin to discern which pictures have cats in them from data it hasn't seen yet. 
 
-#### Cancer treatment
+### Cancer treatment
 When it comes to diagnosing and treating cancer, there are innumerable variables to account for. ML can look through historical patient records and treatment plans to suggest treatment plans for the current patient, thereby expediting the process dramatically.
 
-#### User leaving your product
+### User leaving your product
 No one wants to see a user go. Luckily in many cases, a user will demonstrate patterns indicative of an eminent departure. ML can classify a user's behavior as one that will likely leave soon.
 
-#### Stock market predictions
+### Stock market predictions
 People are deathly serious about their money, especially when it's their job. Those in the financial industry are always looking for a way to stay competitive and ahead of the curve. With decades of stock market data to pore over, companies have invested in having an AI determine what to do now based on the trends in the market its seen before. To buy or to sell — a classification problem. How much will this stock be valued tomorrow, a regression problem.
 
-### See for yourself
+## See for yourself
  - Watson Personality Insights Demo
  - Watson Natural Language Understanding
  - Watson Tone Analyzer

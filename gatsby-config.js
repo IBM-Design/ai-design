@@ -20,7 +20,6 @@ module.exports = {
         background_color: `#171717`,
         theme_color: `#000000`,
         display: `minimal-ui`,
-        icon: `src/images/fav/favicon-196x196.png`, // This path is relative to the root of the site.
         include_favicon: false,
       },
     },
