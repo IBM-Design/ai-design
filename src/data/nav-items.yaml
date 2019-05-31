@@ -6,8 +6,8 @@
     - path: /team-essentials-for-ai
 - title: Basics
   pages:
-    - title: Overview
-      path: /basics/
+    # - title: Overview
+    #   path: /basics/
     - title: Artificial Intelligence
       path: /basics/ai
     - title: Machine Learning
@@ -18,6 +18,8 @@
   pages:
     - title: Overview
       path: /ethics/
+    - title: Introduction
+      path: /ethics/introduction
     - title: Accountability
       path: /ethics/accountability
     - title: Value Alignment

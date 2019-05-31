@@ -10,8 +10,6 @@ import { AnchorLink, AnchorLinks, Column, PageDescription, ResourceCard, Row } f
 
 </PageDescription>
 
-Read time | **5 mins**
-
 <AnchorLinks>
   <AnchorLink href={"#"}>Introduction</AnchorLink>
   <AnchorLink href={"#"}>Chatbots & conversational agents</AnchorLink>
@@ -20,21 +18,6 @@ Read time | **5 mins**
   <AnchorLink href={"#"}>Crafting effective conversation</AnchorLink>
   <AnchorLink href={"#"}>How does a bot interpret conversation?</AnchorLink>
 </AnchorLinks>
-
-<Row className="resource-card-group">
-<Column noGutterSm={true} colSm={2} colMd={3} colLg={4}>
-<ResourceCard
-  href={'ibm.com'}
-  subTitle={'Subtitle'}
-  title={'Title'} />
-</Column>
-<Column noGutterSm={true} colSm={2} colMd={3} colLg={4}>
-<ResourceCard
-  href={'ibm.com'}
-  subTitle={'Subtitle'}
-  title={'Title'} />
-</Column>
-</Row>
 
 
 ## Introduction
@@ -80,7 +63,13 @@ Utterances are the individual statements articulated in an exchange and the buil
 
 
 ##### Example Conversation
+<Row>
+<Column colSm={4} colMd={4} colLg={6}>
+
 ![Example conversation](../../images/conversation/Image_1.png)
+
+</Column>
+</Row>
 
 ## Crafting effective conversation
 Keep in mind that a bot will only provide one half of the conversation. It could be initiating an exchange, or providing a response. You won’t be able to control the user’s end of a conversation. Your job, as a designer, is to provide a delightful conversational experience to the user using a bot as the medium. The key is developing your bot in a way that, no matter the utterance, the bot sounds natural and provides a believable response.
