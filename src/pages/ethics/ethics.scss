@@ -10,7 +10,7 @@ $pink-40: #FA75A6;
 
   &:before {
     background-color: #8c8c8c;
-    content: '';
+    // content: '';
     height: 1px;
     left: 50%;
     position: absolute;
@@ -35,6 +35,10 @@ $pink-40: #FA75A6;
 
   ul {
     width: 100%;
+  }
+
+  li:not(:last-of-type) {
+    margin-bottom: 1.5rem;
   }
 }
 

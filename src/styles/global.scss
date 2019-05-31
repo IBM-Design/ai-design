@@ -57,3 +57,37 @@
 @import "../components/PlayPauseButton/play-pause-button";
 @import "../components/VideoInternal/video-internal";
 @import "../components/HomepageVideo/homepage-video";
+
+
+//---------------------------------------
+// IDL components
+//---------------------------------------
+// .#{$prefix}--grid {
+//   h2 {
+//     font-size: 3rem;
+//     font-weight: 300;
+//     margin-top: 5rem;
+//     margin-bottom: 1.5rem;
+//   }
+//
+//   h3 {
+//     font-size: 1.75rem;
+//     font-weight: 300;
+//     margin-top: 3rem;
+//     margin-bottom: 1rem;
+//   }
+//
+//   h4 {
+//     margin-top: 2rem;
+//     margin-bottom: 0;
+//   }
+//
+//   p {
+//     line-height: 1.8;
+//     margin-bottom: 1.5rem;
+//   }
+//
+//   li:not(:last-of-type):not(.bx--anchor-links__item) {
+//     // margin-bottom: 1.5rem;
+//   }
+// }

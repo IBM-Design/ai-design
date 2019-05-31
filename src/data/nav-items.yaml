@@ -8,9 +8,9 @@
   pages:
     - title: Overview
       path: /basics/
-    - title: AI
+    - title: Artificial Intelligence
       path: /basics/ai
-    - title: ML
+    - title: Machine Learning
       path: /basics/ml
     - title: Data
       path: /basics/data
@@ -32,7 +32,7 @@
   pages:
     - title: Overview
       path: /conversation
-    - title: Design
+    - title: Planning
       path: /conversation/design
 - title: Resources
   pages:

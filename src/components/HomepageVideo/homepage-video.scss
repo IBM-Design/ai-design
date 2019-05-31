@@ -32,7 +32,9 @@
   height: 100%;
 
   @include carbon--breakpoint-down("md") {
-    margin-right: -2rem !important;
+    padding-left: 0;
+    padding-right: 0;
+    // margin-right: -2rem !important;
   }
 
   @include carbon--breakpoint("md") {
@@ -50,6 +52,8 @@
   height: 100%;
   flex-direction: column;
   position: relative;
+  margin-left: 0;
+  margin-right: 0;
 
   @include carbon--breakpoint("md") {
     flex-direction: row;
