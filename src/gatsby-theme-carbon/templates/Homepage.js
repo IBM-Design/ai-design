@@ -10,7 +10,7 @@ const { prefix } = settings;
 
 
 const FirstLeftText = () => (
-  <h5>
+  <h5 class="mission">
     Our Mission
   </h5>
 );

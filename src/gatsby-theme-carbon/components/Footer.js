@@ -14,7 +14,6 @@ const links = {
   firstCol: [
     { href: 'https://www.ibm.com/privacy', linkText: 'Privacy' },
     { href: 'https://www.ibm.com/legal', linkText: 'Terms of Use' },
-    { href: 'https://ibm.com/design', linkText: 'IBM Design' },
     { href: 'https://ibm.com', linkText: 'IBM.com' },
   ],
   secondCol: [

@@ -36,6 +36,6 @@
       path: /conversation
     - title: Planning
       path: /conversation/design
-- title: Resources
-  pages:
-    - path: /resources
+# - title: Resources
+#   pages:
+#     - path: /resources
