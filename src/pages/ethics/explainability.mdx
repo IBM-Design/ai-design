@@ -12,8 +12,6 @@ import './ethics.scss';
 
 ### In general, we don't blindly trust those who can't explain their reasoning. The same goes for AI, perhaps <a href="https://www.ibm.com/watson/advantage-reports/future-of-artificial-intelligence/building-trust-in-ai.html"> even more so</a>. As an AI increases in capabilities and achieves a greater range of impact, its decision-making process should be explainable in terms people can understand. Explainability is key for users interacting with AI to understand the AI's conclusions and recommendations. Your users should always be aware that they are interacting with an AI. Good design does not sacrifice transparency in creating a seamless experience. **Imperceptible AI is not ethical AI.**
 
-Read time | **5 minutes**
-
 </Column>
 
 <Column colSm={1} offsetLg={1} colMd={2} colLg={2}>
@@ -29,39 +27,38 @@ Read time | **5 minutes**
 ## Recommended actions to take
 
 </Column>
-<Column colMd={4} colLg={4}>
+<Column className={'recommendation'} colMd={4} colLg={4}>
 
-01
-
+**01**<br/>
 Allow for questions. A user should be able to ask why an AI is
 doing what it's doing on an ongoing basis. This should be clear
 and up front in the user interface at all times.
 
 </Column>
-<Column colMd={4} colLg={4}>
+<Column className={'recommendation'} colMd={4} colLg={4}>
 
-02
-
+**02**<br/>
 Decision making processes must be reviewable, especially if the
 AI is working with highly sensitive personal information data
 like personally identifiable information, protected health
 information, and/or biometric data. 
 
 </Column>
-<Column colMd={4} colLg={4}>
+</Row>
 
-03
+<Row className={'recommended'}>
+<Column className={'recommendation'} colMd={4} colLg={4}>
 
+**03**<br/>
 When an AI is assisting users with making any highly sensitive
 decisions, the AI must be able to provide them with a sufficient
 explanation of recommendations, the data used, and the reasoning
 behind the recommendations.
 
 </Column>
-<Column colMd={4} colLg={4}>
+<Column className={'recommendation'} colMd={4} colLg={4}>
 
-04
-
+**04**<br/>
 Teams should have and maintain access to a record of an AI’s
 decision processes and be amenable to verification of those
 decision processes.
@@ -71,8 +68,8 @@ decision processes.
 
 
 
-<Row className="hr consider">
-<Column colMd={5} colLg={7}>
+<Row className="consider">
+<Column colMd={7} colLg={7}>
 
 ## To consider
 
@@ -83,7 +80,7 @@ decision processes.
 
 </Column>
 
-<Column colSm={2} colMd={2} colLg={3} offsetSm={2} offsetMd={1} noGutterSm>
+<Column colSm={4} colMd={4} offsetLg={1} colLg={3}>
 <Aside className={'quote'}>
 
 _“IBM supports transparency and data governance policies that will ensure people understand how an AI system came to a given conclusion or recommendation. Companies must be able to explain what went into their algorithm’s recommendations. If they can’t, then their systems shouldn’t be on the market.“_
@@ -97,7 +94,7 @@ _“IBM supports transparency and data governance policies that will ensure peop
 
 
 <Row className="questions">
-<Column colMd={6} colLg={7}>
+<Column colMd={7} colLg={7}>
 
 ## Questions to ask your team
 
@@ -117,7 +114,7 @@ _“IBM supports transparency and data governance policies that will ensure peop
 
 
 <Row className="example">
-<Column colMd={6} colLg={7}>
+<Column colMd={7} colLg={7}>
 
 ## Explainability example
 

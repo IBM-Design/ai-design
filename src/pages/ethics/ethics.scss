@@ -2,6 +2,7 @@ $pink-40: #FA75A6;
 
 .quote {
   margin-top: 1.5rem;
+  margin-bottom: 5rem;
 }
 
 .hr {
@@ -26,7 +27,6 @@ $pink-40: #FA75A6;
 .consider,
 .questions,
 .example {
-  margin-bottom: 5rem;
 
   h2 {
     margin-top: 0;
@@ -42,13 +42,19 @@ $pink-40: #FA75A6;
   }
 }
 
+.recommendation {
+  p {
+    line-height: 1.8;
+  }
+}
+
 // TODO Change per breakpoint
 .recommendation:nth-of-type(n+5) {
   margin-top: 3rem;
 }
 
 .opener {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 
   h3 {
     margin-top: 0;
@@ -56,8 +62,11 @@ $pink-40: #FA75A6;
   }
 }
 
+.example {
+  margin-bottom: 3rem;
+}
+
 .recommended,
-.consider,
 .questions {
   margin-bottom: 5rem;
 }
@@ -77,5 +86,9 @@ $pink-40: #FA75A6;
 
   .hide-on-small {
     display: none;
+  }
+
+  .quote:before {
+    content: none;
   }
 }
