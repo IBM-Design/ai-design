@@ -1,7 +1,12 @@
 $pink-40: #FA75A6;
+$type-color: #282828;
 
 blockquote {
-  margin-top: 8.5rem;
+  // margin-top: 8.5rem !important;
+
+  p {
+    color: $type-color;
+  }
 
   li,
   a,
@@ -10,19 +15,14 @@ blockquote {
   }
 
   li {
-    color: black;
+    color: $type-color;
   }
 }
 
-.ethicsBg {
-  background: url(../../images/ethics/Image_2.png) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: white;
-  margin-top: 5rem;
-  min-height: 30rem;
+.ethics-cta {
+  .gatsby-resp-image-wrapper {
+    margin: 1rem auto 0 auto !important;
+  }
 }
 
 .quote {
@@ -30,6 +30,7 @@ blockquote {
   margin-bottom: -3rem;
 
   p {
+    color: $type-color;
     width: 100%;
   }
 }
@@ -56,6 +57,7 @@ blockquote {
 .consider,
 .questions,
 .example {
+  color: $type-color;
 
   h2 {
     // margin-top: 0;
@@ -87,22 +89,17 @@ blockquote {
 
   h3 {
     font-size: 1.5rem;
-    margin-top: 0;
+    margin-top: 0 !important;
     width: 100%;
   }
 
   .gatsby-resp-image-wrapper {
-    margin-top: 0;
+    margin-top: 0 !important;
   }
 }
 
 .example {
   margin-bottom: 3rem;
-}
-
-.recommended,
-.questions {
-  // margin-bottom: 5rem;
 }
 
 .show-on-small {

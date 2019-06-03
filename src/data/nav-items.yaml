@@ -1,9 +1,9 @@
 - title: Fundamentals
   pages:
     - path: /fundamentals
-- title: Team Essentials for AI
+- title: Team Essentials
   pages:
-    - path: /team-essentials-for-ai
+    - path: /team-essentials
 - title: Basics
   pages:
     # - title: Overview

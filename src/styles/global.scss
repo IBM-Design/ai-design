@@ -70,7 +70,7 @@
 
   h3 {
     // font-weight: 600;
-    margin-top: $spacing-08;
+    margin-top: $spacing-09 * 1.533333333;
   }
 
   .gatsby-resp-image-wrapper {
@@ -93,7 +93,6 @@
 }
 
 li {
-  // font-size: 14px;
 }
 
 img {
@@ -106,6 +105,10 @@ img {
 
 .hide-on-small {
   display: block;
+}
+
+.bx--caption {
+  margin-bottom: 3rem;
 }
 
 @media (max-width: 672px) {
