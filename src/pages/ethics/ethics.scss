@@ -1,5 +1,19 @@
 $pink-40: #FA75A6;
 
+blockquote {
+  margin-top: 8.5rem;
+
+  li,
+  a,
+  .bx--link {
+    font-size: 1.25rem;
+  }
+
+  li {
+    color: black;
+  }
+}
+
 .ethicsBg {
   background: url(../../images/ethics/Image_2.png) no-repeat center center;
   -webkit-background-size: cover;
@@ -44,7 +58,7 @@ $pink-40: #FA75A6;
 .example {
 
   h2 {
-    margin-top: 0;
+    // margin-top: 0;
     margin-bottom: 1.5rem;
   }
 
@@ -59,7 +73,7 @@ $pink-40: #FA75A6;
 
 .recommendation {
   p {
-    line-height: 1.8;
+    line-height: 1.5;
   }
 }
 
@@ -69,11 +83,16 @@ $pink-40: #FA75A6;
 }
 
 .opener {
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
 
   h3 {
+    font-size: 1.5rem;
     margin-top: 0;
     width: 100%;
+  }
+
+  .gatsby-resp-image-wrapper {
+    margin-top: 0;
   }
 }
 
@@ -83,7 +102,7 @@ $pink-40: #FA75A6;
 
 .recommended,
 .questions {
-  margin-bottom: 5rem;
+  // margin-bottom: 5rem;
 }
 
 .show-on-small {
@@ -92,6 +111,14 @@ $pink-40: #FA75A6;
 
 .hide-on-small {
   display: block;
+}
+
+@media (max-width: 845px) {
+  .opener {
+    .gatsby-resp-image-wrapper {
+      margin-top: 0;
+    }
+  }
 }
 
 @media (max-width: 672px) {
