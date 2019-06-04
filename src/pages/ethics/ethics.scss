@@ -65,6 +65,7 @@ blockquote {
   }
 
   ul {
+    margin-bottom: 0 !important;
     width: 100%;
   }
 
@@ -89,11 +90,12 @@ blockquote {
   h3 {
     font-size: 1.5rem;
     margin-top: 0 !important;
+    margin-bottom: 5rem !important;
     width: 100%;
   }
 
   .gatsby-resp-image-wrapper {
-    margin-top: 1rem !important;
+    margin-top: 0 !important;
     margin-bottom: 0 !important;
   }
 }
@@ -110,15 +112,25 @@ blockquote {
   display: block;
 }
 
+@media (max-width: 1056px) {
+  .hide-on-large {
+    display: none;
+  }
+}
+
 @media (max-width: 845px) {
   .opener {
     .gatsby-resp-image-wrapper {
-      margin-top: 0;
+      margin-top: 1rem !important;
     }
   }
 }
 
 @media (max-width: 672px) {
+  blockquote {
+    margin: 2.5rem 0;
+  }
+
   .show-on-small {
     display: block;
   }
