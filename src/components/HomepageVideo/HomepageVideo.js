@@ -77,6 +77,19 @@ class HomepageVideo extends Component {
                     />
                   </div>
                 </Link>
+                <Link
+                  className={`${prefix}--homepage-video-cta ${prefix}--col-md-3 ${prefix}--col-lg-4`}
+                  to="/ethics/"
+                >
+                  <p className={`white ${prefix}--type-expressive-heading-03`}>
+                    Ethics
+                  </p>
+                  <div className={`${prefix}--homepage-video-arrow-container`}>
+                    <ArrowRight20
+                      className={`${prefix}--homepage-video-cta-icon`}
+                    />
+                  </div>
+                </Link>
               </div>
             </div>
           </VideoInternal>

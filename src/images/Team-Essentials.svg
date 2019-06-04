@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="318px" height="637px" viewBox="0 0 318 637" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="95.9394684%" y1="0.720544764%" x2="3.38882283%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#A66EFA" offset="0%"></stop>
+            <stop stop-color="#FA75A6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="IDR" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home_Desktop-Dark-Copy-17" transform="translate(-977.000000, -1073.000000)">
+            <g id="Group-10" transform="translate(977.000000, 1073.000000)">
+                <rect id="Rectangle-6" fill="#282828" x="0" y="0" width="318" height="637"></rect>
+                <g id="Group-20" transform="translate(116.101536, 80.000000)">
+                    <polygon id="Polygon" fill="#F9F9F9" points="44.3984642 0 82.0705692 22.25 82.0705692 66.75 44.3984642 89 6.7263591 66.75 6.7263591 22.25"></polygon>
+                    <polygon id="Polygon" fill="url(#linearGradient-1)" points="42.8984642 102 72.596949 114.740855 84.8984642 145.5 72.596949 176.259145 42.8984642 189 13.1999794 176.259145 0.898464164 145.5 13.1999794 114.740855"></polygon>
+                    <rect id="Rectangle" fill="#A66EFA" x="4.89846416" y="202" width="77" height="79"></rect>
+                    <rect id="Rectangle" fill="#A66EFA" x="4.89846416" y="300" width="77" height="79"></rect>
+                    <rect id="Rectangle" fill="#A66EFA" x="4.89846416" y="398" width="77" height="79"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

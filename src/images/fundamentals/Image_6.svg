@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="928px" height="448px" viewBox="0 0 928 448" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="7.85454545 10.8 2.94545455 5.89090909 3.6396 5.19676364 7.85454545 9.41170909 12.0694909 5.19676364 12.7636364 5.89090909"></polygon>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#A66EFA" offset="0%"></stop>
+            <stop stop-color="#FA75A6" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-4" points="6.75 2.4375 6.22125 3.0103125 9.06375 6.09375 1.125 6.09375 1.125 6.90625 9.06375 6.90625 6.22125 9.9896875 6.75 10.5625 10.5 6.5"></polygon>
+        <polygon id="path-6" points="6.75 2.4375 6.22125 3.0103125 9.06375 6.09375 1.125 6.09375 1.125 6.90625 9.06375 6.90625 6.22125 9.9896875 6.75 10.5625 10.5 6.5"></polygon>
+        <polygon id="path-8" points="6.75 2.4375 6.22125 3.0103125 9.06375 6.09375 1.125 6.09375 1.125 6.90625 9.06375 6.90625 6.22125 9.9896875 6.75 10.5625 10.5 6.5"></polygon>
+        <polygon id="path-10" points="6.75 2.4375 6.22125 3.0103125 9.06375 6.09375 1.125 6.09375 1.125 6.90625 9.06375 6.90625 6.22125 9.9896875 6.75 10.5625 10.5 6.5"></polygon>
+        <polygon id="path-12" points="6.75 2.4375 6.22125 3.0103125 9.06375 6.09375 1.125 6.09375 1.125 6.90625 9.06375 6.90625 6.22125 9.9896875 6.75 10.5625 10.5 6.5"></polygon>
+        <polygon id="path-14" points="6.75 2.4375 6.22125 3.0103125 9.06375 6.09375 1.125 6.09375 1.125 6.90625 9.06375 6.90625 6.22125 9.9896875 6.75 10.5625 10.5 6.5"></polygon>
+        <polygon id="path-16" points="6.75 2.4375 6.22125 3.0103125 9.06375 6.09375 1.125 6.09375 1.125 6.90625 9.06375 6.90625 6.22125 9.9896875 6.75 10.5625 10.5 6.5"></polygon>
+        <polygon id="path-18" points="6.75 2.4375 6.22125 3.0103125 9.06375 6.09375 1.125 6.09375 1.125 6.90625 9.06375 6.90625 6.22125 9.9896875 6.75 10.5625 10.5 6.5"></polygon>
+    </defs>
+    <g id="IDR" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IBM-Design-Language-—-Color-UI" transform="translate(-351.000000, -9064.000000)">
+            <g id="Group-10" transform="translate(351.000000, 9064.000000)">
+                <g id="Group-9">
+                    <rect id="Rectangle-8-Copy" fill="#252525" x="0" y="0" width="928" height="448"></rect>
+                    <g id="icon/navigation/chevron/down/24" transform="translate(458.000000, 304.000000) rotate(-180.000000) translate(-458.000000, -304.000000) translate(450.000000, 296.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <text id="Business" font-family="IBMPlexSans, IBM Plex Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#F3F3F3">
+                        <tspan x="34" y="106">Business</tspan>
+                    </text>
+                    <text id="World" font-family="IBMPlexSans, IBM Plex Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#F3F3F3">
+                        <tspan x="122" y="106">World</tspan>
+                    </text>
+                    <text id="Machine" font-family="IBMPlexSans, IBM Plex Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#F3F3F3">
+                        <tspan x="221" y="106">Machine</tspan>
+                    </text>
+                    <path d="M34.4976266,122.5 L107.489378,122.5" id="Line-6" stroke="#F9F9F9" stroke-linecap="square"></path>
+                    <path d="M121.498759,122.5 L207.718811,122.5" id="Line-6" stroke="#F9F9F9" stroke-linecap="square"></path>
+                    <path d="M220.498426,122.5 L600.552552,122.5" id="Line-6" stroke="#F9F9F9" stroke-linecap="square"></path>
+                    <text id="Human" font-family="IBMPlexSans, IBM Plex Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#F3F3F3">
+                        <tspan x="616" y="106">Human</tspan>
+                    </text>
+                    <path d="M614.498308,122.5 L806.691618,122.5" id="Line-6" stroke="#F9F9F9" stroke-linecap="square"></path>
+                    <text id="Business" font-family="IBMPlexSans, IBM Plex Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#F3F3F3">
+                        <tspan x="819" y="106">Business</tspan>
+                    </text>
+                    <path d="M818,122.5 L893,122.5" id="Line-6" stroke="#F9F9F9" stroke-linecap="square"></path>
+                    <path d="" id="Path-20" stroke="#979797"></path>
+                    <polygon id="Polygon" fill="#F9F9F9" points="68 210 102.641016 230.25 102.641016 270.75 68 291 33.3589838 270.75 33.3589838 230.25"></polygon>
+                    <polygon id="Polygon" fill="url(#linearGradient-3)" points="162.5 210 191.137825 221.862175 203 250.5 191.137825 279.137825 162.5 291 133.862175 279.137825 122 250.5 133.862175 221.862175"></polygon>
+                    <rect id="Rectangle" fill="#A66EFA" x="221" y="211" width="79" height="79"></rect>
+                    <rect id="Rectangle" fill="#A66EFA" x="320" y="211" width="79" height="79"></rect>
+                    <rect id="Rectangle" fill="#A66EFA" x="419" y="211" width="79" height="79"></rect>
+                    <polygon id="Polygon" fill="#F9F9F9" points="857 209 893.373067 230 893.373067 272 857 293 820.626933 272 820.626933 230"></polygon>
+                    <rect id="Rectangle" fill="#A66EFA" x="518" y="211" width="79" height="79"></rect>
+                    <ellipse id="Oval" fill="#FA75A6" cx="658.5" cy="253.5" rx="41.5" ry="40.5"></ellipse>
+                    <ellipse id="Oval" fill="#FA75A6" cx="759.5" cy="253.5" rx="41.5" ry="40.5"></ellipse>
+                    <text id="Understanding" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="24" fill="#F3F3F3">
+                        <tspan x="219.9" y="189">Understanding</tspan>
+                    </text>
+                    <text id="Data-and-policy" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="24" fill="#F3F3F3">
+                        <tspan x="119.504" y="189">Data and policy</tspan>
+                    </text>
+                    <text id="Intent" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="24" fill="#F3F3F3">
+                        <tspan x="50.594" y="189">Intent</tspan>
+                    </text>
+                    <text id="Reasoning" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="24" fill="#F3F3F3">
+                        <tspan x="328.932173" y="189">Reasoning</tspan>
+                    </text>
+                    <text id="Knowledge" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="24" fill="#F3F3F3">
+                        <tspan x="427.278312" y="189">Knowledge</tspan>
+                    </text>
+                    <text id="Outcome" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="24" fill="#F3F3F3">
+                        <tspan x="831.878" y="189.255168">Outcome</tspan>
+                    </text>
+                    <text id="Expression" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="24" fill="#F3F3F3">
+                        <tspan x="526.377616" y="189">Expression</tspan>
+                    </text>
+                    <text id="User-reaction" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="24" fill="#F3F3F3">
+                        <tspan x="621.387378" y="189">User reaction</tspan>
+                    </text>
+                    <text id="Learning" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="24" fill="#F3F3F3">
+                        <tspan x="735.238312" y="189.324897">Learning</tspan>
+                    </text>
+                    <g id="icon/navigation/arrow/right/16" transform="translate(805.000000, 244.000000)">
+                        <mask id="mask-5" fill="white">
+                            <use xlink:href="#path-4"></use>
+                        </mask>
+                        <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    </g>
+                    <g id="icon/navigation/arrow/right/16" transform="translate(704.000000, 244.000000)">
+                        <mask id="mask-7" fill="white">
+                            <use xlink:href="#path-6"></use>
+                        </mask>
+                        <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    </g>
+                    <g id="icon/navigation/arrow/right/16" transform="translate(601.000000, 244.000000)">
+                        <mask id="mask-9" fill="white">
+                            <use xlink:href="#path-8"></use>
+                        </mask>
+                        <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-8"></use>
+                    </g>
+                    <g id="icon/navigation/arrow/right/16" transform="translate(502.000000, 244.000000)">
+                        <mask id="mask-11" fill="white">
+                            <use xlink:href="#path-10"></use>
+                        </mask>
+                        <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-10"></use>
+                    </g>
+                    <g id="icon/navigation/arrow/right/16" transform="translate(403.000000, 244.000000)">
+                        <mask id="mask-13" fill="white">
+                            <use xlink:href="#path-12"></use>
+                        </mask>
+                        <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-12"></use>
+                    </g>
+                    <g id="icon/navigation/arrow/right/16" transform="translate(304.000000, 244.000000)">
+                        <mask id="mask-15" fill="white">
+                            <use xlink:href="#path-14"></use>
+                        </mask>
+                        <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-14"></use>
+                    </g>
+                    <g id="icon/navigation/arrow/right/16" transform="translate(206.000000, 244.000000)">
+                        <mask id="mask-17" fill="white">
+                            <use xlink:href="#path-16"></use>
+                        </mask>
+                        <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-16"></use>
+                    </g>
+                    <g id="icon/navigation/arrow/right/16" transform="translate(107.000000, 244.000000)">
+                        <mask id="mask-19" fill="white">
+                            <use xlink:href="#path-18"></use>
+                        </mask>
+                        <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-18"></use>
+                    </g>
+                    <polyline id="Path-2" stroke="#DADADA" transform="translate(558.500000, 330.352593) scale(1, -1) translate(-558.500000, -330.352593) " points="458 358.352593 458 302.352593 659 302.352593 659 358.352593"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

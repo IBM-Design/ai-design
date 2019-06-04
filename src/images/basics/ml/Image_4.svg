@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="448px" height="448px" viewBox="0 0 448 448" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="IDR" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IBM-Design-Language-—-Color-UI" transform="translate(-351.000000, -5033.000000)">
+            <g id="Group-5" transform="translate(351.000000, 5033.000000)">
+                <rect id="Rectangle-8-Copy" fill="#FFFFFF" x="0" y="0" width="448" height="448"></rect>
+                <ellipse id="Oval" fill="#DCDCDC" cx="223.595402" cy="223.5" rx="175.351436" ry="174.5"></ellipse>
+                <ellipse id="Oval" fill="#BEBEBE" cx="224.121983" cy="270.804217" rx="127.432575" ry="127.195783"></ellipse>
+                <ellipse id="Oval" fill="#252525" cx="224.121983" cy="319.159639" rx="78.9871333" ry="78.8403614"></ellipse>
+                <text id="Deep-Learning" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="18" fill="#FFFFFF">
+                    <tspan x="200.720564" y="311.744">Deep</tspan>
+                    <tspan x="187.816564" y="329.744">Learning</tspan>
+                </text>
+                <text id="Machine-Learning" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="18" fill="#030303">
+                    <tspan x="188.776564" y="193.346247">Machine</tspan>
+                    <tspan x="187.816564" y="211.346247">Learning</tspan>
+                </text>
+                <text id="Artificial-Intellige" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="18" fill="#030303">
+                    <tspan x="188.080564" y="93.744">Artificial</tspan>
+                    <tspan x="175.584564" y="111.744">Intelligence</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

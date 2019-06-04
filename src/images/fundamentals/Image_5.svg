@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="448px" height="448px" viewBox="0 0 448 448" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="2.80392421%" x2="0%" y2="107.655064%" id="linearGradient-1">
+            <stop stop-color="#A66EFA" offset="0%"></stop>
+            <stop stop-color="#FA75A6" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="6.87272727 9.45 2.57727273 5.15454545 3.18465 4.54716818 6.87272727 8.23524545 10.5608045 4.54716818 11.1681818 5.15454545"></polygon>
+        <polygon id="path-4" points="6.87272727 9.45 2.57727273 5.15454545 3.18465 4.54716818 6.87272727 8.23524545 10.5608045 4.54716818 11.1681818 5.15454545"></polygon>
+        <polygon id="path-6" points="6.87272727 9.45 2.57727273 5.15454545 3.18465 4.54716818 6.87272727 8.23524545 10.5608045 4.54716818 11.1681818 5.15454545"></polygon>
+        <polygon id="path-8" points="6.87272727 9.45 2.57727273 5.15454545 3.18465 4.54716818 6.87272727 8.23524545 10.5608045 4.54716818 11.1681818 5.15454545"></polygon>
+        <polygon id="path-10" points="6.87272727 9.45 2.57727273 5.15454545 3.18465 4.54716818 6.87272727 8.23524545 10.5608045 4.54716818 11.1681818 5.15454545"></polygon>
+        <polygon id="path-12" points="6.87272727 9.45 2.57727273 5.15454545 3.18465 4.54716818 6.87272727 8.23524545 10.5608045 4.54716818 11.1681818 5.15454545"></polygon>
+        <polygon id="path-14" points="6.87272727 9.45 2.57727273 5.15454545 3.18465 4.54716818 6.87272727 8.23524545 10.5608045 4.54716818 11.1681818 5.15454545"></polygon>
+        <polygon id="path-16" points="6.87272727 9.45 2.57727273 5.15454545 3.18465 4.54716818 6.87272727 8.23524545 10.5608045 4.54716818 11.1681818 5.15454545"></polygon>
+        <polygon id="path-18" points="6.87272727 9.45 2.57727273 5.15454545 3.18465 4.54716818 6.87272727 8.23524545 10.5608045 4.54716818 11.1681818 5.15454545"></polygon>
+        <polygon id="path-20" points="6.87272727 9.45 2.57727273 5.15454545 3.18465 4.54716818 6.87272727 8.23524545 10.5608045 4.54716818 11.1681818 5.15454545"></polygon>
+        <polygon id="path-22" points="6.87272727 9.45 2.57727273 5.15454545 3.18465 4.54716818 6.87272727 8.23524545 10.5608045 4.54716818 11.1681818 5.15454545"></polygon>
+        <polygon id="path-24" points="6.87272727 9.45 2.57727273 5.15454545 3.18465 4.54716818 6.87272727 8.23524545 10.5608045 4.54716818 11.1681818 5.15454545"></polygon>
+        <polygon id="path-26" points="6.87272727 9.45 2.57727273 5.15454545 3.18465 4.54716818 6.87272727 8.23524545 10.5608045 4.54716818 11.1681818 5.15454545"></polygon>
+        <polygon id="path-28" points="6.87272727 9.45 2.57727273 5.15454545 3.18465 4.54716818 6.87272727 8.23524545 10.5608045 4.54716818 11.1681818 5.15454545"></polygon>
+        <polygon id="path-30" points="6.87272727 9.45 2.57727273 5.15454545 3.18465 4.54716818 6.87272727 8.23524545 10.5608045 4.54716818 11.1681818 5.15454545"></polygon>
+        <polygon id="path-32" points="6.87272727 9.45 2.57727273 5.15454545 3.18465 4.54716818 6.87272727 8.23524545 10.5608045 4.54716818 11.1681818 5.15454545"></polygon>
+    </defs>
+    <g id="IDR" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IBM-Design-Language-—-Color-UI" transform="translate(-831.000000, -7934.000000)">
+            <g id="Group-8" transform="translate(831.000000, 7934.000000)">
+                <rect id="Rectangle-8-Copy" fill="#252525" x="0" y="0" width="448" height="448"></rect>
+                <ellipse id="Oval" stroke="#F3F3F3" stroke-width="0.9" transform="translate(226.542132, 222.881409) rotate(-180.000000) translate(-226.542132, -222.881409) " cx="226.542132" cy="222.881409" rx="141.893094" ry="142.320997"></ellipse>
+                <path d="M226.323732,131.97663 C253.880882,131.97663 276.220366,109.778599 276.220366,82.3959397 C276.220366,55.0132808 253.880882,69.7925174 226.323732,69.7925174 C198.766581,69.7925174 176.427097,55.0132808 176.427097,82.3959397 C176.427097,109.778599 198.766581,131.97663 226.323732,131.97663 Z" id="Oval" fill="#252525"></path>
+                <path d="M226.294566,390.11645 C261.051332,390.11645 289.227258,415.32394 289.227258,380.687789 C289.227258,346.051638 261.051332,317.97349 226.294566,317.97349 C191.5378,317.97349 163.361874,346.051638 163.361874,380.687789 C163.361874,415.32394 191.5378,390.11645 226.294566,390.11645 Z" id="Oval" fill="#252525"></path>
+                <path d="M383.15176,284.236443 C416.639103,282.960562 407.435356,257.239213 407.435356,223.936443 C407.435356,190.633673 416.529056,163.636443 383.15176,163.636443 C349.774465,163.636443 322.716821,190.633673 322.716821,223.936443 C322.716821,257.239213 349.664418,285.512324 383.15176,284.236443 Z" id="Oval" fill="#252525"></path>
+                <path d="M66.6035751,283.909838 C94.9075055,289.540859 128.88819,256.230366 128.88819,222.086006 C128.88819,187.941646 95.7163517,160.262174 66.6035751,160.262174 C37.4907985,160.262174 40.905727,187.941646 40.905727,222.086006 C40.905727,256.230366 38.2996447,278.278817 66.6035751,283.909838 Z" id="Oval" fill="#252525"></path>
+                <rect id="Rectangle" fill="#A66EFA" x="323.859684" y="178.014112" width="87.082404" height="88.7697064"></rect>
+                <text id="Machine" font-family="IBMPlexSans, IBM Plex Sans" font-size="12.6" font-weight="normal" line-spacing="21.6" fill="#171717">
+                    <tspan x="343.561686" y="223.698965">Machine</tspan>
+                </text>
+                <ellipse id="Oval" fill="#FA75A6" cx="82.5901997" cy="222.398965" rx="45.5901997" ry="45.3497413"></ellipse>
+                <text id="Human" font-family="IBMPlexSans, IBM Plex Sans" font-size="12.6" font-weight="normal" line-spacing="21.6" fill="#171717">
+                    <tspan x="61.0907009" y="223.698965">Human</tspan>
+                </text>
+                <text id="Context" font-family="IBMPlexSans-SemiBoldItalic, IBM Plex Sans" font-size="12.6" font-style="italic" font-weight="500" line-spacing="21.6" fill="#DCDCDC">
+                    <tspan x="204.429402" y="222.72977">Context</tspan>
+                </text>
+                <polygon id="Polygon" fill="#F9F9F9" points="227.04454 41 267.414054 64.6397588 267.414054 111.919276 227.04454 135.559035 186.675027 111.919276 186.675027 64.6397588"></polygon>
+                <polygon id="Polygon" fill="url(#linearGradient-1)" points="226.812735 306.344231 261.223164 320.192081 275.476431 353.623749 261.223164 387.055416 226.812735 400.903266 192.402305 387.055416 178.149038 353.623749 192.402305 320.192081"></polygon>
+                <text id="World" font-family="IBMPlexSans, IBM Plex Sans" font-size="12.6" font-weight="normal" line-spacing="10.8" fill="#171717">
+                    <tspan x="206.518767" y="356.799059">World</tspan>
+                </text>
+                <text id="Business" font-family="IBMPlexSans, IBM Plex Sans" font-size="12.6" font-weight="normal" line-spacing="21.6" fill="#171717">
+                    <tspan x="201.759847" y="89.2026392">Business</tspan>
+                </text>
+                <path d="M226.697115,238.066272 L226.697115,297.605898" id="Line-7" stroke="#F3F3F3" stroke-width="0.9" stroke-linecap="square"></path>
+                <g id="icon/navigation/chevron/down/24" transform="translate(219.504808, 288.602639)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <g id="icon/navigation/chevron/down/24" transform="translate(226.697115, 239.102639) rotate(-180.000000) translate(-226.697115, -239.102639) translate(219.504808, 231.902639)">
+                    <mask id="mask-5" fill="white">
+                        <use xlink:href="#path-4"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-4"></use>
+                </g>
+                <path d="M285.138399,194.880482 L285.138399,248.88374" id="Line-7" stroke="#F3F3F3" stroke-width="0.9" stroke-linecap="square" transform="translate(285.525188, 221.939428) rotate(-270.000000) translate(-285.525188, -221.939428) "></path>
+                <g id="icon/navigation/chevron/down/24" transform="translate(260.384135, 221.552639) rotate(-270.000000) translate(-260.384135, -221.552639) translate(253.191827, 214.352639)">
+                    <mask id="mask-7" fill="white">
+                        <use xlink:href="#path-6"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-6"></use>
+                </g>
+                <g id="icon/navigation/chevron/down/24" transform="translate(310.784135, 221.552639) rotate(-450.000000) translate(-310.784135, -221.552639) translate(303.591827, 214.352639)">
+                    <mask id="mask-9" fill="white">
+                        <use xlink:href="#path-8"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-8"></use>
+                </g>
+                <path d="M166.914842,194.880482 L166.914842,248.88374" id="Line-7" stroke="#F3F3F3" stroke-width="0.9" stroke-linecap="square" transform="translate(167.301631, 221.939428) rotate(-270.000000) translate(-167.301631, -221.939428) "></path>
+                <g id="icon/navigation/chevron/down/24" transform="translate(142.160577, 221.552639) rotate(-270.000000) translate(-142.160577, -221.552639) translate(134.968269, 214.352639)">
+                    <mask id="mask-11" fill="white">
+                        <use xlink:href="#path-10"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-10"></use>
+                </g>
+                <g id="icon/navigation/chevron/down/24" transform="translate(192.560577, 221.552639) rotate(-450.000000) translate(-192.560577, -221.552639) translate(185.368269, 214.352639)">
+                    <mask id="mask-13" fill="white">
+                        <use xlink:href="#path-12"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-12"></use>
+                </g>
+                <path d="M226.697115,147.166272 L226.697115,206.705898" id="Line-7" stroke="#F3F3F3" stroke-width="0.9" stroke-linecap="square"></path>
+                <g id="icon/navigation/chevron/down/24" transform="translate(219.504808, 197.702639)">
+                    <mask id="mask-15" fill="white">
+                        <use xlink:href="#path-14"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-14"></use>
+                </g>
+                <g id="icon/navigation/chevron/down/24" transform="translate(226.697115, 148.202639) rotate(-180.000000) translate(-226.697115, -148.202639) translate(219.504808, 141.002639)">
+                    <mask id="mask-17" fill="white">
+                        <use xlink:href="#path-16"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-16"></use>
+                </g>
+                <g id="icon/navigation/chevron/down/24" transform="translate(175.540511, 89.945271) rotate(-107.000000) translate(-175.540511, -89.945271) translate(168.348203, 82.745271)">
+                    <mask id="mask-19" fill="white">
+                        <use xlink:href="#path-18"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-18"></use>
+                </g>
+                <g id="icon/navigation/chevron/down/24" transform="translate(95.976784, 167.140368) rotate(25.000000) translate(-95.976784, -167.140368) translate(88.784477, 159.940368)">
+                    <mask id="mask-21" fill="white">
+                        <use xlink:href="#path-20"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-20"></use>
+                </g>
+                <g id="icon/navigation/chevron/down/24" transform="translate(357.057692, 167.102639) rotate(-17.000000) translate(-357.057692, -167.102639) translate(349.865385, 159.902639)">
+                    <mask id="mask-23" fill="white">
+                        <use xlink:href="#path-22"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-22"></use>
+                </g>
+                <g id="icon/navigation/chevron/down/24" transform="translate(277.942308, 90.062756) rotate(-253.000000) translate(-277.942308, -90.062756) translate(270.750000, 82.862756)">
+                    <mask id="mask-25" fill="white">
+                        <use xlink:href="#path-24"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-24"></use>
+                </g>
+                <g id="icon/navigation/chevron/down/24" transform="translate(284.235577, 352.756852) rotate(-287.000000) translate(-284.235577, -352.756852) translate(277.043269, 345.556852)">
+                    <mask id="mask-27" fill="white">
+                        <use xlink:href="#path-26"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-26"></use>
+                </g>
+                <g id="icon/navigation/chevron/down/24" transform="translate(356.158654, 280.502639) rotate(-155.000000) translate(-356.158654, -280.502639) translate(348.966346, 273.302639)">
+                    <mask id="mask-29" fill="white">
+                        <use xlink:href="#path-28"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-28"></use>
+                </g>
+                <g id="icon/navigation/chevron/down/24" transform="translate(96.184718, 279.199484) rotate(-197.000000) translate(-96.184718, -279.199484) translate(88.992410, 271.999484)">
+                    <mask id="mask-31" fill="white">
+                        <use xlink:href="#path-30"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-30"></use>
+                </g>
+                <g id="icon/navigation/chevron/down/24" transform="translate(168.259615, 352.639367) rotate(-433.000000) translate(-168.259615, -352.639367) translate(161.067308, 345.439367)">
+                    <mask id="mask-33" fill="white">
+                        <use xlink:href="#path-32"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-32"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

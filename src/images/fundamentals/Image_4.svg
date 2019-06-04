@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="448px" height="448px" viewBox="0 0 448 448" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="6.87272727 9.45 2.57727273 5.15454545 3.18465 4.54716818 6.87272727 8.23524545 10.5608045 4.54716818 11.1681818 5.15454545"></polygon>
+        <polygon id="path-3" points="6.87272727 9.45 2.57727273 5.15454545 3.18465 4.54716818 6.87272727 8.23524545 10.5608045 4.54716818 11.1681818 5.15454545"></polygon>
+    </defs>
+    <g id="IDR" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IBM-Design-Language-—-Color-UI" transform="translate(-351.000000, -7934.000000)">
+            <g id="Group-7" transform="translate(351.000000, 7934.000000)">
+                <rect id="Rectangle-8-Copy" fill="#252525" x="0" y="0" width="448" height="448"></rect>
+                <ellipse id="Oval" stroke="#F3F3F3" stroke-width="0.9" transform="translate(226.744851, 222.778770) rotate(-180.000000) translate(-226.744851, -222.778770) " cx="226.744851" cy="222.77877" rx="142.044851" ry="142.320997"></ellipse>
+                <path d="M383.521976,284.133804 C417.045134,282.857923 407.831544,257.136574 407.831544,223.833804 C407.831544,190.531033 416.934969,163.533804 383.521976,163.533804 C350.108983,163.533804 323.022401,190.531033 323.022401,223.833804 C323.022401,257.136574 349.998819,285.409684 383.521976,284.133804 Z" id="Oval" fill="#252525"></path>
+                <path d="M66.6352367,283.807199 C94.9694387,289.43822 128.986466,256.127726 128.986466,221.983367 C128.986466,187.839007 95.77915,160.159535 66.6352367,160.159535 C37.4913235,160.159535 40.9099043,187.839007 40.9099043,221.983367 C40.9099043,256.127726 38.3010347,278.176178 66.6352367,283.807199 Z" id="Oval" fill="#252525"></path>
+                <rect id="Rectangle" fill="#A66EFA" x="324.166485" y="177.911473" width="87.1755402" height="88.7697064"></rect>
+                <text id="Machine" font-family="IBMPlexSans, IBM Plex Sans" font-size="12.6" font-weight="normal" line-spacing="21.6" fill="#171717">
+                    <tspan x="343.915056" y="223.596326">Machine</tspan>
+                </text>
+                <ellipse id="Oval" fill="#FA75A6" cx="82.6389593" cy="222.296326" rx="45.6389593" ry="45.3497413"></ellipse>
+                <text id="Human" font-family="IBMPlexSans, IBM Plex Sans" font-size="12.6" font-weight="normal" line-spacing="21.6" fill="#171717">
+                    <tspan x="61.1383647" y="223.596326">Human</tspan>
+                </text>
+                <text id="A-symbiotic-relation" font-family="IBMPlexSans-SemiBoldItalic, IBM Plex Sans" font-size="12.6" font-style="italic" font-weight="500" line-spacing="17.1" fill="#F3F3F3">
+                    <tspan x="190.941497" y="218.7">A symbiotic </tspan>
+                    <tspan x="189.750797" y="235.8">relationship</tspan>
+                </text>
+                <g id="icon/navigation/chevron/down/24" transform="translate(357.400000, 167.000000) rotate(-17.000000) translate(-357.400000, -167.000000) translate(350.200000, 159.800000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="icon/navigation/chevron/down/24" transform="translate(96.248017, 279.096845) rotate(-197.000000) translate(-96.248017, -279.096845) translate(89.048017, 271.896845)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <text id="Human-augments-the-m" font-family="IBMPlexSans-Italic, IBM Plex Sans" font-size="12.6" font-style="italic" font-weight="normal" line-spacing="21.6" fill="#F3F3F3">
+                    <tspan x="140.5" y="54">Human augments the machine</tspan>
+                </text>
+                <text id="Machine-augments-the" font-family="IBMPlexSans-Italic, IBM Plex Sans" font-size="12.6" font-style="italic" font-weight="normal" line-spacing="21.6" fill="#F3F3F3">
+                    <tspan x="137.8" y="396">Machine augments the human</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

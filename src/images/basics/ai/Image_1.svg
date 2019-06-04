@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="928px" height="448px" viewBox="0 0 928 448" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="IDR" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IBM-Design-Language-—-Color-UI" transform="translate(-339.000000, -2946.000000)">
+            <g id="Group-2" transform="translate(339.000000, 2946.000000)">
+                <rect id="Rectangle-8-Copy" fill="#FFFFFF" x="0" y="0" width="928" height="448"></rect>
+                <g id="Group-69" transform="translate(82.000000, 59.000000)">
+                    <g id="Group-68" transform="translate(256.533490, 229.221311)" stroke="#252525" stroke-linecap="square" stroke-width="0.9">
+                        <polyline id="Line-8" points="7.37743207 21.5489794 3.65490332 25.1426237 -2.05169215e-13 21.5469952"></polyline>
+                        <path d="M3.68871603,0 L3.68871603,24.690703" id="Line-9"></path>
+                    </g>
+                    <g id="Group-68" transform="translate(477.668634, 86.778689) rotate(-180.000000) translate(-477.668634, -86.778689) translate(473.668634, 73.778689)" stroke="#252525" stroke-linecap="square" stroke-width="0.9">
+                        <polyline id="Line-8" points="7.37743207 21.5489794 3.65490332 25.1426237 -2.05169215e-13 21.5469952"></polyline>
+                        <path d="M3.68871603,0 L3.68871603,24.690703" id="Line-9"></path>
+                    </g>
+                    <g id="Group-68" transform="translate(166.486981, 164.550529) rotate(-90.000000) translate(-166.486981, -164.550529) translate(162.486981, 151.550529)" stroke="#252525" stroke-linecap="square" stroke-width="0.9">
+                        <polyline id="Line-8" points="7.37743207 21.5489794 3.65490332 25.1426237 -2.05169215e-13 21.5469952"></polyline>
+                        <path d="M3.68871603,0 L3.68871603,24.690703" id="Line-9"></path>
+                    </g>
+                    <g id="Group-68" transform="translate(383.415301, 164.550529) rotate(-90.000000) translate(-383.415301, -164.550529) translate(379.415301, 151.550529)" stroke="#252525" stroke-linecap="square" stroke-width="0.9">
+                        <polyline id="Line-8" points="7.37743207 21.5489794 3.65490332 25.1426237 -2.05169215e-13 21.5469952"></polyline>
+                        <path d="M3.68871603,0 L3.68871603,24.690703" id="Line-9"></path>
+                    </g>
+                    <rect id="Rectangle" fill="#252525" x="189.784874" y="134.978414" width="142.268144" height="61.3682035" rx="30.6841017"></rect>
+                    <rect id="Rectangle" fill="#DCDCDC" x="406.853114" y="-1.0658141e-13" width="142.268144" height="61.3682035" rx="30.6841017"></rect>
+                    <rect id="Rectangle" fill="#DCDCDC" x="622.881316" y="136.001218" width="142.268144" height="61.3682035" rx="30.6841017"></rect>
+                    <rect id="Rectangle" fill="#DCDCDC" x="-2.30215846e-12" y="134.836066" width="142.268144" height="61.3682035" rx="30.6841017"></rect>
+                    <rect id="Rectangle" fill="#DCDCDC" x="189.784874" y="266.97541" width="142.268144" height="61.3682035" rx="30.6841017"></rect>
+                    <text id="Lamp-doesn’t-work" font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" line-spacing="21.6" fill="#252525">
+                        <tspan x="20.7795099" y="166">Lamp doesn’t work</tspan>
+                    </text>
+                    <text id="Repair-lamp" font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" line-spacing="21.6" fill="#252525">
+                        <tspan x="660.714169" y="166">Repair lamp</tspan>
+                    </text>
+                    <text id="Lamp-plugged-in?" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="21.6" fill="#FFFFFF">
+                        <tspan x="213.128304" y="166">Lamp plugged in?</tspan>
+                    </text>
+                    <rect id="Rectangle" fill="#252525" x="406.853114" y="134.978414" width="142.268144" height="61.3682035" rx="30.6841017"></rect>
+                    <text id="Plug-in-lamp" font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" line-spacing="21.6" fill="#252525">
+                        <tspan x="228.804458" y="298">Plug in lamp</tspan>
+                    </text>
+                    <text id="No" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12.6" font-weight="500" line-spacing="21.6" fill="#252525">
+                        <tspan x="252.931587" y="214.665865">No</tspan>
+                    </text>
+                    <text id="Bulb-burned-out?" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12" font-weight="500" line-spacing="21.6" fill="#FFFFFF">
+                        <tspan x="430.009395" y="165.342129">Bulb burned out?</tspan>
+                    </text>
+                    <text id="Replace-bulb" font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" line-spacing="21.6" fill="#252525">
+                        <tspan x="440.888163" y="30.4917953">Replace bulb</tspan>
+                    </text>
+                    <text id="Yes" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12.6" font-weight="500" line-spacing="21.6" fill="#252525">
+                        <tspan x="467.654906" y="119.54515">Yes</tspan>
+                    </text>
+                    <text id="No" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12.6" font-weight="500" line-spacing="21.6" fill="#252525">
+                        <tspan x="559.541688" y="167.344314">No</tspan>
+                    </text>
+                    <text id="Yes" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="12.6" font-weight="500" line-spacing="21.6" fill="#252525">
+                        <tspan x="342.208603" y="164.904372">Yes</tspan>
+                    </text>
+                    <g id="Group-68" transform="translate(597.643268, 164.550529) rotate(-90.000000) translate(-597.643268, -164.550529) translate(593.643268, 151.550529)" stroke="#252525" stroke-linecap="square" stroke-width="0.9">
+                        <polyline id="Line-8" points="7.37743207 21.5489794 3.65490332 25.1426237 -2.05169215e-13 21.5469952"></polyline>
+                        <path d="M3.68871603,0 L3.68871603,24.690703" id="Line-9"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
