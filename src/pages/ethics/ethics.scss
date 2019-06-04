@@ -85,7 +85,6 @@ blockquote {
 }
 
 .opener {
-  margin-bottom: 1.25rem;
 
   h3 {
     font-size: 1.5rem;
@@ -94,7 +93,8 @@ blockquote {
   }
 
   .gatsby-resp-image-wrapper {
-    margin-top: 0 !important;
+    margin-top: 1rem !important;
+    margin-bottom: 0 !important;
   }
 }
 
