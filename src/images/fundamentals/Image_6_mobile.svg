@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="2006px" viewBox="0 0 320 2006" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Group 74</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="119.177284%" y1="0%" x2="-21.1928466%" y2="116.902831%" id="linearGradient-1">
+            <stop stop-color="#A66EFA" offset="0%"></stop>
+            <stop stop-color="#FA75A6" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="9 3.1875 8.295 3.9365625 12.085 7.96875 1.5 7.96875 1.5 9.03125 12.085 9.03125 8.295 13.0634375 9 13.8125 14 8.5"></polygon>
+        <polygon id="path-4" points="9 3.1875 8.295 3.9365625 12.085 7.96875 1.5 7.96875 1.5 9.03125 12.085 9.03125 8.295 13.0634375 9 13.8125 14 8.5"></polygon>
+        <polygon id="path-6" points="9 3.1875 8.295 3.9365625 12.085 7.96875 1.5 7.96875 1.5 9.03125 12.085 9.03125 8.295 13.0634375 9 13.8125 14 8.5"></polygon>
+        <polygon id="path-8" points="9 3.1875 8.295 3.9365625 12.085 7.96875 1.5 7.96875 1.5 9.03125 12.085 9.03125 8.295 13.0634375 9 13.8125 14 8.5"></polygon>
+        <polygon id="path-10" points="9 3.1875 8.295 3.9365625 12.085 7.96875 1.5 7.96875 1.5 9.03125 12.085 9.03125 8.295 13.0634375 9 13.8125 14 8.5"></polygon>
+        <polygon id="path-12" points="9 3.1875 8.295 3.9365625 12.085 7.96875 1.5 7.96875 1.5 9.03125 12.085 9.03125 8.295 13.0634375 9 13.8125 14 8.5"></polygon>
+        <polygon id="path-14" points="9 3.1875 8.295 3.9365625 12.085 7.96875 1.5 7.96875 1.5 9.03125 12.085 9.03125 8.295 13.0634375 9 13.8125 14 8.5"></polygon>
+        <polygon id="path-16" points="9 3.1875 8.295 3.9365625 12.085 7.96875 1.5 7.96875 1.5 9.03125 12.085 9.03125 8.295 13.0634375 9 13.8125 14 8.5"></polygon>
+    </defs>
+    <g id="IDR" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-74" transform="translate(-0.055517, 0.000000)">
+            <g id="Group-70">
+                <rect id="Rectangle" fill="#252525" x="0.0555169428" y="0" width="320" height="2006"></rect>
+                <polygon id="Polygon" fill="#F9F9F9" points="86.0555169 101 150.141397 138 150.141397 212 86.0555169 249 21.9696371 212 21.9696371 138"></polygon>
+                <polygon id="Polygon" fill="url(#linearGradient-1)" points="86.0555169 369.5 134.138778 389.416739 154.055517 437.5 134.138778 485.583261 86.0555169 505.5 37.9722558 485.583261 18.0555169 437.5 37.9722558 389.416739"></polygon>
+                <rect id="Rectangle" fill="#A66EFA" x="22.0555169" y="619.5" width="128" height="129"></rect>
+                <rect id="Rectangle" fill="#A66EFA" x="22.0555169" y="797" width="128" height="129"></rect>
+                <rect id="Rectangle" fill="#A66EFA" x="22.0555169" y="974" width="128" height="129"></rect>
+                <text id="Data-and-Policy" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#252525">
+                    <tspan x="52.2755169" y="429.5">Data and</tspan>
+                    <tspan x="63.2275169" y="453.5">Policy</tspan>
+                </text>
+                <text id="Understanding" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#252525">
+                    <tspan x="30.7555169" y="684.5">Understanding</tspan>
+                </text>
+                <text id="Reasoning" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#252525">
+                    <tspan x="47.9555169" y="863">Reasoning</tspan>
+                </text>
+                <text id="Knowledge" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#252525">
+                    <tspan x="45.1315169" y="1040">Knowledge</tspan>
+                </text>
+                <rect id="Rectangle" fill="#A66EFA" x="22.0555169" y="1150.5" width="128" height="129"></rect>
+                <text id="Expression" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#252525">
+                    <tspan x="45.6915169" y="1216.5">Expression</tspan>
+                </text>
+                <text id="Intent" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#252525">
+                    <tspan x="62.3475169" y="177">Intent</tspan>
+                </text>
+                <text id="Business" font-family="IBMPlexSans, IBM Plex Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#F9F9F9">
+                    <tspan x="22.0555169" y="59">Business</tspan>
+                </text>
+                <text id="World" font-family="IBMPlexSans, IBM Plex Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#F9F9F9">
+                    <tspan x="22.0555169" y="325.5">World</tspan>
+                </text>
+                <text id="Machine" font-family="IBMPlexSans, IBM Plex Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#F9F9F9">
+                    <tspan x="22.0555169" y="576.5">Machine</tspan>
+                </text>
+                <g id="icon/navigation/arrow/right/20" transform="translate(86.055517, 273.000000) rotate(-270.000000) translate(-86.055517, -273.000000) translate(78.055517, 264.500000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <g id="icon/navigation/arrow/right/20" transform="translate(86.055517, 530.000000) rotate(-270.000000) translate(-86.055517, -530.000000) translate(78.055517, 521.500000)">
+                    <mask id="mask-5" fill="white">
+                        <use xlink:href="#path-4"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-4"></use>
+                </g>
+                <g id="icon/navigation/arrow/right/20" transform="translate(86.055517, 773.000000) rotate(-270.000000) translate(-86.055517, -773.000000) translate(78.055517, 764.500000)">
+                    <mask id="mask-7" fill="white">
+                        <use xlink:href="#path-6"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-6"></use>
+                </g>
+                <path d="M22.5103557,76.5 L151.055517,76.5" id="Line-6" stroke="#F9F9F9" stroke-linecap="square"></path>
+                <path d="M22.5107885,345 L151.055517,345" id="Line-6" stroke="#F9F9F9" stroke-linecap="square"></path>
+                <path d="M22.5097756,596 L150.055517,596" id="Line-6" stroke="#F9F9F9" stroke-linecap="square"></path>
+                <polygon id="Polygon" fill="#F9F9F9" points="86.0555169 1809.5 150.141397 1846.5 150.141397 1920.5 86.0555169 1957.5 21.9696371 1920.5 21.9696371 1846.5"></polygon>
+                <text id="Outcome" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#252525">
+                    <tspan x="53.0595169" y="1885.5">Outcome</tspan>
+                </text>
+                <text id="Business" font-family="IBMPlexSans, IBM Plex Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#F9F9F9">
+                    <tspan x="22.0555169" y="1767.5">Business</tspan>
+                </text>
+                <path d="M22.5103557,1785 L149.055517,1785" id="Line-6" stroke="#F9F9F9" stroke-linecap="square"></path>
+                <path d="M22.5097756,1370 L149.055517,1370" id="Line-6" stroke="#F9F9F9" stroke-linecap="square"></path>
+                <g id="icon/navigation/arrow/right/20" transform="translate(86.055517, 1719.000000) rotate(-270.000000) translate(-86.055517, -1719.000000) translate(78.055517, 1710.500000)">
+                    <mask id="mask-9" fill="white">
+                        <use xlink:href="#path-8"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-8"></use>
+                </g>
+                <g id="icon/navigation/arrow/right/20" transform="translate(86.055517, 950.000000) rotate(-270.000000) translate(-86.055517, -950.000000) translate(78.055517, 941.500000)">
+                    <mask id="mask-11" fill="white">
+                        <use xlink:href="#path-10"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-10"></use>
+                </g>
+                <g id="icon/navigation/arrow/right/20" transform="translate(86.055517, 1127.000000) rotate(-270.000000) translate(-86.055517, -1127.000000) translate(78.055517, 1118.500000)">
+                    <mask id="mask-13" fill="white">
+                        <use xlink:href="#path-12"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-12"></use>
+                </g>
+                <g id="icon/navigation/arrow/right/20" transform="translate(86.055517, 1544.000000) rotate(-270.000000) translate(-86.055517, -1544.000000) translate(78.055517, 1535.500000)">
+                    <mask id="mask-15" fill="white">
+                        <use xlink:href="#path-14"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-14"></use>
+                </g>
+                <text id="Human" font-family="IBMPlexSans, IBM Plex Sans" font-size="16" font-weight="normal" line-spacing="24" fill="#F9F9F9">
+                    <tspan x="22.0555169" y="1351.5">Human</tspan>
+                </text>
+                <g id="icon/navigation/arrow/right/20" transform="translate(86.055517, 1304.000000) rotate(-270.000000) translate(-86.055517, -1304.000000) translate(78.055517, 1295.500000)">
+                    <mask id="mask-17" fill="white">
+                        <use xlink:href="#path-16"></use>
+                    </mask>
+                    <use id="icon-color" fill="#F3F3F3" fill-rule="evenodd" xlink:href="#path-16"></use>
+                </g>
+                <ellipse id="Oval" fill="#FA75A6" cx="86.5555169" cy="1456.5" rx="64.5" ry="63"></ellipse>
+                <text id="User-Reaction" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#252525">
+                    <tspan x="34.9075169" y="1459.5">User Reaction</tspan>
+                </text>
+                <ellipse id="Oval" fill="#FA75A6" cx="86.5555169" cy="1631.5" rx="64.5" ry="63"></ellipse>
+                <text id="Learning" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="16" font-weight="500" line-spacing="24" fill="#252525">
+                    <tspan x="54.4115169" y="1634.5">Learning</tspan>
+                </text>
+                <path d="" id="Path-20" stroke="#979797"></path>
+                <polyline id="Path-2" stroke="#F3F3F3" stroke-width="0.9" transform="translate(205.000000, 1247.411934) scale(1, -1) rotate(-270.000000) translate(-205.000000, -1247.411934) " points="-4 1278.91193 -4 1215.91193 414 1215.91193 414 1278.91193"></polyline>
+                <g id="Group-68" transform="translate(175.055517, 1038.100000) rotate(-90.000000) translate(-175.055517, -1038.100000) translate(170.255517, 1035.100000)" stroke="#F3F3F3" stroke-linecap="square" stroke-width="0.9">
+                    <polyline id="Line-8" transform="translate(4.320000, 3.480000) rotate(-180.000000) translate(-4.320000, -3.480000) " points="8.52 1.08 4.32 5.88 0.12 1.08"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="928px" height="522px" viewBox="0 0 928 522" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="134.689545%" y1="23.2763156%" x2="0%" y2="65.8203125%" id="linearGradient-1">
+            <stop stop-color="#8B3FFB" offset="0%"></stop>
+            <stop stop-color="#EC528D" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="928" height="522"></rect>
+        <linearGradient x1="100%" y1="0.0671896966%" x2="0%" y2="99.9328103%" id="linearGradient-4">
+            <stop stop-color="#A66EFA" offset="0%"></stop>
+            <stop stop-color="#FA75A6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="IDR" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IBM-Design-Language-—-2x-Grid" transform="translate(-352.000000, -2054.000000)">
+            <g id="Group-4" transform="translate(352.000000, 2054.000000)">
+                <g id="Group-2" fill="url(#linearGradient-1)">
+                    <rect id="Rectangle-6" x="0" y="0" width="928" height="522"></rect>
+                </g>
+                <g id="Image-1">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Mask" fill="#BEBEBE" xlink:href="#path-2"></use>
+                    <polygon id="Polygon" fill="#FFFFFF" mask="url(#mask-3)" points="403.5 -320 632.563719 -187.714582 632.563719 76.8562552 403.5 209.141674 174.436281 76.8562552 174.436281 -187.714582"></polygon>
+                    <polygon id="Polygon" fill="url(#linearGradient-4)" mask="url(#mask-3)" points="768.5 140 963.307918 220.637847 1044 415.31483 963.307918 609.991814 768.5 690.62966 573.692082 609.991814 493 415.31483 573.692082 220.637847"></polygon>
+                    <path d="M247.878,230.756 C227.511,230.756 211,214.245 211,193.878 C211,173.51 227.511,157 247.878,157 C268.245,157 284.756,173.51 284.756,193.878 C284.756,214.245 268.245,230.756 247.878,230.756" id="Fill-7" fill="#020202" mask="url(#mask-3)"></path>
+                    <path d="M450.878,439.756 C430.511,439.756 414,423.245 414,402.878 C414,382.511 430.511,366 450.878,366 C471.245,366 487.756,382.511 487.756,402.878 C487.756,423.245 471.245,439.756 450.878,439.756" id="Fill-8" fill="#020202" mask="url(#mask-3)"></path>
+                    <path d="M621.878,196.756 C601.511,196.756 585,180.245 585,159.878 C585,139.511 601.511,123 621.878,123 C642.245,123 658.756,139.511 658.756,159.878 C658.756,180.245 642.245,196.756 621.878,196.756" id="Fill-8" fill="#020202" mask="url(#mask-3)"></path>
+                    <rect id="Rectangle" fill="#A66EFA" mask="url(#mask-3)" x="-252" y="231" width="505" height="508.996686"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
