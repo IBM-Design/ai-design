@@ -1,3 +1,16 @@
-.video-wrapper {
-  margin-top: 3rem;
+.photo-grid {
+ .gatsby-resp-image-wrapper {
+    margin: 2rem 0 !important
+  }
+
+  a:hover {
+    cursor: default !important;
+    background: none !important;
+  }
+}
+
+.feature-card {
+  .gatsby-resp-image-wrapper {
+    margin: 0 !important;
+  }
 }
