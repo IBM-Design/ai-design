@@ -116,7 +116,7 @@ blockquote {
 }
 
 .hide-on-large {
-  display: none;
+  display: block;
 }
 
 @media (max-width: 1056px) {
@@ -125,7 +125,7 @@ blockquote {
   }
 
   .hide-on-large {
-    display: block;
+    display: none;
   }
 }
 
