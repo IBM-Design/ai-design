@@ -111,9 +111,21 @@ blockquote {
   display: block;
 }
 
+.show-on-large {
+  display: block;
+}
+
+.hide-on-large {
+  display: none;
+}
+
 @media (max-width: 1056px) {
-  .hide-on-large {
+  .show-on-large {
     display: none;
+  }
+
+  .hide-on-large {
+    display: block;
   }
 }
 
@@ -127,7 +139,7 @@ blockquote {
 
 @media (max-width: 672px) {
   blockquote {
-    margin: 2.5rem 0;
+    margin: 2.5rem 0 !important;
   }
 
   .show-on-small {

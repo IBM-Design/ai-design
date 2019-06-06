@@ -9,6 +9,7 @@
 
 .getting-started {
   background-color: #161616;
+  display: flex;
   max-width: 74.25rem;
   padding-top: 2.375rem;
   padding-bottom: 3rem;
@@ -26,6 +27,20 @@
 
   h5 {
     font-size: 1.25rem;
+  }
+
+  &.tablet {
+    display: none;
+  }
+
+  @media (max-width: 1056px) and (min-width: 672px) {
+    & {
+      display: none;
+    }
+
+    &.tablet {
+      display: flex;
+    }
   }
 }
 
@@ -45,8 +60,6 @@
 }
 
 .callout {
-
-
   div {
     padding: 0;
   }

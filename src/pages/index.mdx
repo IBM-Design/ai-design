@@ -5,7 +5,7 @@ import './home.scss';
 export default HomepageTemplate;
 
 
-<Row className={"getting-started"}>
+<Row className={"getting-started hide-on-medium"}>
   <Column colMd={4} colLg={4} noGutterSm>
     <ImageCard
       className="card"
@@ -24,7 +24,7 @@ export default HomepageTemplate;
     className="card"
     title="Basics"
     aspectRatio="1:1"
-    href="/basics"
+    href="/basics/ai"
     hoverColor="dark"
     titleColor="light"
     actionIcon="arrowRight">
@@ -73,6 +73,80 @@ export default HomepageTemplate;
       hoverColor="dark">
 
 ![Link to AI Team Essentials with the AI Essentials Framework](../images/Team-Essentials.svg)
+
+  </ImageCard>
+</Column>
+</Row>
+
+
+
+<Row className={"getting-started tablet"}>
+  <Column colMd={4} colLg={4} noGutterSm>
+    <ImageCard
+      className="card"
+      title="Fundamentals"
+      href="/fundamentals"
+      aspectRatio="1:1"
+      hoverColor="dark"
+      titleColor="dark"
+      actionIcon="arrowRight"
+      iconColor="dark">
+
+![Link to AI fundamentals with an illustration of Knapp's Relational Model](../images/Fundamentals.svg)
+
+  </ImageCard>
+
+  <ImageCard
+    className="card"
+    title="Team Essentials"
+    aspectRatio="1:2"
+    href="/team-essentials"
+    actionIcon="arrowRight"
+    hoverColor="dark">
+
+![Link to AI Team Essentials with the AI Essentials Framework](../images/Team-Essentials.svg)
+
+  </ImageCard>
+
+</Column>
+
+<Column colMd={4} colLg={4} noGutterSm>
+<ImageCard
+className="card"
+title="Basics"
+aspectRatio="1:1"
+href="/basics/ai"
+hoverColor="dark"
+titleColor="light"
+actionIcon="arrowRight">
+
+![Link to AI Basics with an assortment of shapes strewn about](../images/Basics.svg)
+
+</ImageCard>
+    <ImageCard
+      className="card"
+      title="Ethics"
+      aspectRatio="1:1"
+      href="/ethics"
+      hoverColor="dark"
+      titleColor="dark"
+      actionIcon="arrowRight"
+      iconColor="dark">
+
+![Link to AI Ethics with an illustration of hotel employees and customers](../images/Ethics.svg)
+
+
+  </ImageCard>
+      <ImageCard
+        className="card"
+        title="Conversation"
+        titleColor="light"
+        aspectRatio="1:1"
+        href="/conversation"
+        actionIcon="arrowRight"
+        hoverColor="dark">
+
+![Link to Conversation Design with chat bubbles](../images/Conversation.svg)
 
   </ImageCard>
 </Column>

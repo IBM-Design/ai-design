@@ -93,9 +93,21 @@ img {
   display: block;
 }
 
+.hide-on-large {
+  display: none;
+}
+
 .bx--caption {
   margin-top: -3rem;
   margin-bottom: 3rem;
+}
+
+@media (max-width: 845px) {
+
+  // TODO dirty, please change this
+  .hide-on-large {
+    display: block;
+  }
 }
 
 @media (max-width: 672px) {
@@ -104,6 +116,10 @@ img {
   }
 
   .hide-on-small {
+    display: none;
+  }
+
+  .hide-on-large {
     display: none;
   }
 }
