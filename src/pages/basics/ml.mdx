@@ -44,9 +44,9 @@ There are a few distinct ways that machines can learn. In most cases, it'll fall
 Remember that we as humans also have discrete learning styles. Sometimes we learn by watching videos and reading books; other times we acquire knowledge based on hearing it in context. There are also learning certain tasks that require a specific learning style. For example, we can always read about baseball, but if we want to hit a ball, there's no amount of reading that can substitute practicing swinging a bat. This separation in learning styles is the basic idea behind the different branches of ML.
 
 #### Supervised learning
-Supervised learning specializes in predicting the future. This is split further depending on whether it's predicting a thing or a number, called classification or regression, respectively. To understand how this works, you start with the data. All supervised learning algorithms need what’s called labeled data. This data is grouped into samples that have been tagged with one or more labels. In other words, applying supervised learning requires you to tell your model 1. what the key characteristics of a thing are (called features); and 2. what that thing actually is. 
+Supervised learning specializes in predicting the future. This is split further depending on whether it's predicting a thing or a number, called classification or regression, respectively. To understand how this works, you start with the data. All supervised learning algorithms need what’s called *labeled data*. This data is grouped into samples that have been tagged with one or more *labels*. In other words, applying supervised learning requires you to tell your model 1. what the key characteristics of a thing are (called *features*); and 2. what that thing actually is. 
 
-To demonstrate the former, let's take the example of teaching a child their shapes. This is classification problem and starts by giving the child a shapes sheet, which shows shapes and the shape’s corresponding name. 
+To demonstrate the former, let's take the example of teaching a child their shapes. This is classification problem and starts by giving the child a shapes sheet, which shows shapes and the shape’s corresponding name (Fig. 1). 
 
 <Row>
 <Column colLg={6}>
@@ -54,7 +54,7 @@ To demonstrate the former, let's take the example of teaching a child their shap
 ![Shapes](../../images/basics/ml/Image_1.png)
 
 <Caption fullWidth>
-  Needs a caption
+  (Fig. 1) Supervised learning uses labeled data
 </Caption>
 </Column>
 
@@ -63,14 +63,14 @@ To demonstrate the former, let's take the example of teaching a child their shap
 ![Triangles](../../images/basics/ml/Image_2.png)
 
 <Caption fullWidth>
-  Needs a caption
+  (Fig. 2) ML requires many examples in order to learn key patterns
 </Caption>
 </Column>
 </Row>
 
 Circles are simple enough. Every circle is perfectly round (with infinite sides); this pieces of information is the key feature of a circle.
 
-Triangles are a little more complex. Based on the shapes sheet, your child might assume that all triangles have equal-length sides. In order for your child to better understand triangles, you'd have to show her or him more examples. Doing this would build their confidence in identifying triangular shapes.
+Triangles are a little more complex. Based on the shapes sheet, your child might assume that all triangles have equal-length sides. In order for your child to better understand triangles, you'd have to show her or him more examples. Doing this would build their confidence in identifying triangular shapes (Fig. 2).
 
 After consuming these additional examples, your child would learn that the key feature of a triangle is having three sides, but also that those sides can be of varying lengths, unlike the square.
 
@@ -88,9 +88,6 @@ Let’s use the example again of the child and the shapes. Suppose again that yo
 
 ![Different shapes clustered together by similar properties](../../images/basics/ml/Image_3.png)
 
-<Caption fullWidth>
-  Needs a caption
-</Caption>
 </Column>
 </Row>
 
@@ -119,7 +116,7 @@ For now, just know that deep learning is machine learning that uses a neural net
 ![Deep learning is a subset of machine learning is a subset of AI](../../images/basics/ml/Image_4.png)
 
 <Caption fullWidth>
-  Needs a caption
+  Deep learning is a subset of ML, which is a subset of AI.
 </Caption>
 </Column>
 </Row>
