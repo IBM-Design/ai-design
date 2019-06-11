@@ -1,6 +1,16 @@
 .photo-grid {
+  > div:nth-of-type(n+3) {
+    margin-top: 2rem;
+  }
+
+  @media (max-width: 672px) {
+    > div:not(:first-of-type) {
+      margin-top: 2rem;
+    }
+  }
+
  .gatsby-resp-image-wrapper {
-    margin: 2rem 0 !important
+    margin: 0 !important;
   }
 
   a:hover {

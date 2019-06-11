@@ -89,3 +89,13 @@ img {
   margin-top: -3rem;
   margin-bottom: 3rem;
 }
+
+@media (max-width: 1056px) {
+  aside {
+    margin-top: 1.75rem;
+  }
+
+  aside::before {
+    content: none !important;
+  }
+}
