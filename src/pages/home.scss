@@ -1,3 +1,7 @@
+.container--homepage a:hover {
+  text-decoration: none;
+}
+
 .banner-text {
   font-size: 3.75rem;
   font-weight: 300;
@@ -60,8 +64,9 @@
 }
 
 .callout {
-  div {
-    padding: 0;
+  > div {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
   }
 
   h5 {

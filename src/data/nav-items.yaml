@@ -1,16 +1,16 @@
 - title: Fundamentals
   pages:
     - path: /fundamentals
-- title: Team Essentials
+- title: Team essentials
   pages:
     - path: /team-essentials
 - title: Basics
   pages:
     # - title: Overview
     #   path: /basics/
-    - title: Artificial Intelligence
+    - title: Artificial intelligence
       path: /basics/ai
-    - title: Machine Learning
+    - title: Machine learning
       path: /basics/ml
     - title: Data
       path: /basics/data
@@ -18,17 +18,17 @@
   pages:
     - title: Overview
       path: /ethics/
-    - title: Everyday Ethics for AI
+    - title: Everyday ethics for AI
       path: /ethics/everyday-ethics
     - title: Accountability
       path: /ethics/accountability
-    - title: Value Alignment
+    - title: Value alignment
       path: /ethics/value-alignment
     - title: Explainability
       path: /ethics/explainability
     - title: Fairness
       path: /ethics/fairness
-    - title: User Data Rights
+    - title: User data rights
       path: /ethics/user-data-rights
 - title: Conversation
   pages:
