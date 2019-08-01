@@ -24,3 +24,7 @@
     margin: 0 !important;
   }
 }
+
+[class*='image-card__img']:after {
+  content: none;
+}
