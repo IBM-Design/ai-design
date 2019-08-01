@@ -26,5 +26,5 @@
 }
 
 [class*='image-card__img']:after {
-  content: none;
+  content: none !important;
 }
