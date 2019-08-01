@@ -78,15 +78,16 @@
   }
 }
 
-li {
-}
-
 img {
   margin-bottom: 3rem;
 }
 
-.bx--caption {
-  margin-top: -3rem;
+[class*='list__item'] {
+  margin-bottom: 0;
+}
+
+[class*='caption'] {
+  margin-top: -3rem !important;
   margin-bottom: 3rem;
 }
 
