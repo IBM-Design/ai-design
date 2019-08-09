@@ -25,13 +25,18 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `IBM Design for AI`,
-        short_name: `IBM Design for AI`,
-        start_url: `/`,
-        background_color: `#171717`,
-        theme_color: `#000000`,
-        display: `minimal-ui`,
+        name: 'IBM Design for AI',
+        short_name: 'IBM Design for AI',
+        start_url: '/',
+        background_color: '#171717',
+        theme_color: '#000000',
+        display: 'minimal-ui',
         include_favicon: false,
+      },
+    {
+      resolve: 'gatsby-plugin-force-trailing-slashes',
+      options: {
+        excludedPaths: ['/404.html'],
       },
     },
     {
