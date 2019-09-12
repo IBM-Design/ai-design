@@ -25,5 +25,6 @@ module.exports = {
         include_favicon: false,
       },
     },
+    `gatsby-plugin-force-trailing-slashes`
   ],
 };
