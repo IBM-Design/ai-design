@@ -3,6 +3,13 @@
   max-width: calc(33.33333% + 1rem);
 }
 
+@media all and (max-width: 671px) {
+  .bx--homepage-video-container-cta a {
+    flex: 0 0 50%;
+    max-width: 100%;
+  }
+}
+
 .container--homepage a:hover {
   text-decoration: none;
 }
@@ -78,6 +85,19 @@
     font-size: 1.25rem;
     font-weight: 400;
   }
+
+  // @media all and (min-width: 671px) and (max-width: 1055px) {
+  //   div > div:first-of-type {
+  //     flex: 0 0 25%;
+  //     max-width: 100%;
+  //   }
+  //
+  //   div > div:last-of-type {
+  //     flex: 0 0 75%;
+  //     max-width: 100%;
+  //   }
+  // }
+
 }
 
 .hidden {
