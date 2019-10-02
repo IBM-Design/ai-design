@@ -25,6 +25,12 @@ module.exports = {
         include_favicon: false,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-149252834-1",
+      },
+    },
     `gatsby-plugin-force-trailing-slashes`
   ],
 };
