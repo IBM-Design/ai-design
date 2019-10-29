@@ -83,7 +83,14 @@
 
   h5 {
     font-size: 1.25rem;
+    font-size: calc(1.25rem + 0*(100vw - 20rem)/62);
     font-weight: 400;
+  }
+
+  @media (min-width: 99rem) {
+    h5 {
+      font-size: 1.5rem;
+    }
   }
 
   // @media all and (min-width: 671px) and (max-width: 1055px) {

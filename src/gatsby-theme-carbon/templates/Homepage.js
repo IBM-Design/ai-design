@@ -11,13 +11,13 @@ const { prefix } = settings;
 
 const FirstLeftText = () => (
   <h5 class="mission">
-    Our Practice
+    Our practice
   </h5>
 );
 
 const FirstRightText = () => (
   <p>
-    <strong>To design for a relationship with AI, we need to know ourselves first.</strong>   Our practice is built on IBM’s Principles for the AI Era as a resource for
+    <strong>To design for a relationship with AI, we need to know ourselves first.</strong>  Our practice is built on IBM’s Principles for the AI Era as a resource for
     all designers and developers. This shared collection of ethics, guidelines,
     and resources ensures that IBM products share a unified foundation.
   </p>
