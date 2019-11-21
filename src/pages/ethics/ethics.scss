@@ -24,34 +24,9 @@ blockquote {
   }
 }
 
-aside {
-  margin-top: .75rem;
-}
-
-.quote {
-  margin-top: 1.5rem;
-  margin-bottom: -3rem;
-
-  p {
-    color: $type-color;
-    width: 100%;
-  }
-}
-
-.hr {
-  padding-top: 1.5rem;
-  position: relative;
-
-  &:before {
-    background-color: #8c8c8c;
-    // content: '';
-    height: 1px;
-    left: 50%;
-    position: absolute;
-    top: 0;
-    transform: translateX(-50%);
-    width: calc(100% - 2rem);
-  }
+.quote p {
+  color: $type-color;
+  width: 100%;
 }
 
 .opener,
@@ -62,18 +37,8 @@ aside {
 .example {
   color: $type-color;
 
-  h2 {
-    // margin-top: 0;
-    margin-bottom: 1.5rem;
-  }
-
   ul {
-    margin-bottom: 0 !important;
     width: 100%;
-  }
-
-  li:not(:last-of-type) {
-    margin-bottom: 1.5rem;
   }
 }
 
@@ -85,26 +50,12 @@ aside {
 
 // TODO Change per breakpoint
 .recommendation:nth-of-type(n+5) {
-  margin-top: 3rem;
+  // margin-top: 3rem;
 }
 
-.opener {
-
-  h3 {
-    font-size: 1.5rem;
-    margin-top: 0 !important;
-    margin-bottom: 5rem !important;
-    width: 100%;
-  }
-
-  .gatsby-resp-image-wrapper {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-  }
-}
-
-.example {
-  margin-bottom: 3rem;
+.opener h3 {
+  font-size: 1.5rem;
+  width: 100%;
 }
 
 .show-on-small {
@@ -136,7 +87,7 @@ aside {
 @media (max-width: 845px) {
   .opener {
     .gatsby-resp-image-wrapper {
-      margin-top: 1rem !important;
+      // margin-top: 1rem !important;
     }
   }
 }

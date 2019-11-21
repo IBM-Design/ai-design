@@ -12,7 +12,16 @@ module.exports = {
     url: "http://localhost:6003",
   },
   plugins: [
-    'gatsby-theme-carbon',
+    {
+      resolve: 'gatsby-theme-carbon',
+      options: {
+        repository: {
+          baseUrl: 'https://github.com/IBM-Design/ai-design',
+          subDirectory: '',
+          branch: 'staging',
+        },
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
