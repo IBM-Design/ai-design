@@ -30,8 +30,11 @@
   padding-top: 2.375rem;
   padding-bottom: 3rem;
 
-  .card a {
-    background: none;
+  .card {
+    margin-top: 0 !important;
+    a {
+      background: none;
+    }
   }
 
   .card .gatsby-resp-image-wrapper {
