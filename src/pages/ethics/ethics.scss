@@ -42,6 +42,14 @@ blockquote {
   }
 }
 
+.consider,
+.questions,
+.example {
+  li {
+    margin-bottom: 1.5rem;
+  }
+}
+
 .recommendation {
   p {
     line-height: 1.5;
