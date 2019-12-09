@@ -33,6 +33,7 @@ module.exports = {
         display: 'minimal-ui',
         include_favicon: false,
       },
+    },
     {
       resolve: 'gatsby-plugin-force-trailing-slashes',
       options: {

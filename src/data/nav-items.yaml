@@ -36,6 +36,10 @@
       path: /conversation
     - title: Planning
       path: /conversation/planning
-# - title: Resources
-#   pages:
-#     - path: /resources
+- title: Data
+  pages:
+    - title: Overview
+      path: /data
+- title: Glossary
+  pages:
+    - path: /glossary
