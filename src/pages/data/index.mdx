@@ -10,15 +10,151 @@ description: data basics, uses, and anatomy
 </PageDescription>
 
 
-## Data is important, even for you
-If you're like the seven plus billion people on the planet, you make decisions. Some of these decisions you make so instinctively that you don't even realize them happening: what to wear to work, what to make for dinner, which way to take to work. Others you might agonize over before settling on a compromise: which city to move you and your family to, which job to take, which house to buy (and for how much).
+## Introduction
+
+Data is an easy word to toss around.  We create data-driven software. We help clients better leverage their data to make data-driven decisions.  We’ve been told that “data is the new oil.”[1] Less than a decade later, Big Data has come to dominate all sectors; massive amounts of money and labor are being invested in the generation, capture, and analysis of Big Data, especially as a means for AI.
+
+In “The AI Ladder,” Rob Thomas asserts that “fueled by massive amounts of data and unprecedented advances in machine learning, [AI] has the potential to add almost 16 trillion dollars to the global economy by 2030.” At the same time, over four out of five business leaders don’t understand data, the critical piece that makes it all possible. [2]
+
+At long last, let’s unpack the meaning behind this powerful, omnipresent word.
+
+
+## Data Decrees
+
+Any data experts would tell you these six truths about data, each on having significant ramifications. No matter your role or current relationship with data, remember:
+
+### 1. Data is inseparable from humans.
+
+Datasets are planned and recorded by humans, all of whom have implicit and explicit political, social, and cultural biases. While the data might appear objective and unbiased, humans are deciding which data is worthy of being recorded, telling the story the data shows, deciding which data is invalid, and so on.
+
+#### In practice
+
+- Ask for and document the assumptions underlying the data selection, curation, transformation, and conclusions
+- Ask for and document from where, what, and whom the data is sourced.
+- Seek to understand any biases or agendas – conscious or unconscious – that might have impacted the data.
+
+
+#### Questions to ask yourself and your team
+
+- What was the intent of the person collecting this data?
+- Is this data observed, volunteered, or observed?
+- What is the risk of accepting the data as true?
+- Is there an explicit or hidden incentive structure informing this data?
+- Where was it collected, how was it transformed, and what conclusions were drawn from it?
+
+#### Running example
+The new Clearbridge CEO is attempting to win back clientele from Vacate, an online marketplace for arranging lodging. She instruments a new incentive structure that she believes will encourage conversion: offering rewards to branches and managers who report more first-time visitors, more higher reviews online, and customer satisfaction. Due to a known issue in the system, returning visitors are sometimes marked as new visitors. Addressing this issue puts branch and regional managers in a bind though; they can correctly report the issue and miss out on incentives, or double report the visitors and be rewarded.
+
+### 2. Data codifies the past.
+
+Data inherently records what already happened. As with history, it recounts past events and historians are tasked with analyzing it. Current events get codified and historians become experts of the precedented. Ultimately, history/data can predict the future, insofar as there’s a precedent for it. Data will always skew towards and perpetuate what’s been seen, while being less sensitive to the unseen.
+
+#### In practice
+
+- Get information about the context surrounding the data collection. Whenever possible, get an idea of the distribution of people who generate the datasets and govern the “ground truth.”
+- When the cost of mistakes and the added value of human judgment is high, ensure that humans are brought into the fold to confirm data-driven designs.
+
+#### Questions to ask
+
+- Are we trying to predict the unprecedented?
+- How relevant is the historical data in present day?
+- Which groups of people have long created the data? Been excluded from the data creation?
+- How likely is it that you will encounter an unforeseen experience? What’s the associated risk?
+
+#### Running example
+
+Clearbridge Hotel is seeking to use AI in identifying and promoting promising talent within the company. The company uses its employee dataset dating back to the beginning. Beth, their data scientist, is asked to build a model to identify all-star talent. In looking over the data, she notices that the common denominator among executives in the company are older white males, to the exclusion of others. The dataset, although consistent with the company’s history, represents the pattern for systemic sexism and racism present in our world as a whole.
+
+### 3. Data insights can change the future.
+
+Without humans, data can only use what's happened previously to predict what will happen in the future.  Unlike humans, data cannot insert logic onto past experience. However, when a human enters the equation to act on these conclusions, their actions can ripple beyond intended effects.
+
+#### In practice
+
+- Conduct a Layers of Effect exercise, individually or as a team, to consider downstream effects of what your insights might cause.
+- When it comes to answering superlative questions, like “best/worst,” “most/least likely,” etc., consider the self-perpetuating cycle your insights could create and the ramifications therein.
+
+#### Questions to ask
+
+- What are the downstream secondary and tertiary effects of what happens given the data conclusions in the world e.g. university ratings?
+- Can the core business or user problem you’re looking to solve with data be disproven?
+- Are the datapoints you’re using proxies for the real ones you’re looking to measure?
+- Does this data-driven decision require a human in the loop?
+
+#### Running example
+
+The Clearbridge team discovered that they were ranked as the best hotel chain for business travelers in the world. They are thrilled. They begin to get more clientele, capture more of the professional market, and see significant growth relative to the years prior. This boom leads to more business travelers as they begin to tell their friends and employers. This one decision outside of the hotel’s control shaped their direction, business model, and bottom line.
+
+
+### 4. Data is a means to an end.
+
+Data is fuel. Data is not the map, data is not the destination, and data isn’t the answer without a question in mind. It doesn’t tell us what the problem is, nor how to solve it. It can, however, help us expose problems, provide more information about them, and evaluate the effectiveness of a solution. In every phase of using data, it’s helpful to remember the end goal and the root question(s) that data seeks to answer.
 
 
 
-If you're like the seven plus billion people on the planet, this was written for people like you.
+#### In practice
+
+- Try explaining in plain language what factors are really needed to solve the problem at hand.
+- Consider simplifying. Use a model with fewer features, or a visualization with fewer dimensions, or a chart instead of a table.
+- Remind yourself of what questions the end user(s) of the data need answered.
+
+#### Questions to ask
+
+- How much data is needed to confidently answer the question at hand?
+- Is the question at hand best answered by quantitative data, qualitative data, or a combination of both?
+- What questions are we seeking to answer with this data?
+- What’s the context surrounding the data?
+
+#### Running example
+
+Beth and Alisha inherited a project to help understand how the Clearbridge’s in-house restaurant is performing. Beth pores through the visitation data by geo and time of day, looking at how certain branches do and which meals do the best and worst. Alisha conducts interviews and solicits feedback from users’ most recent visit, as well as does a couple of site visits. They convene and corroborate each other's findings: the “specials” perform no better than regular items because it’s hard to find on the menu. They consolidate the findings and propose the intended solution to their executive team. They include the supporting data in the footnotes for their execs for reference.
 
 
-Given the data available to us as authors, we could also hypothesize that you develop, design, sell, research, architect, etc. products or services for people. Whether you have one these responsibilities or not, you're making decisions everyday based on information you gather and patterns that have become so common that they're embedded into your intuition. This material nods to, but does not rely on, that assumption; the promise of this guide is to help you, the likely technical person, to increase your ability to productively use data to inform your design decisions to make better experiences.
+
+### 5. Data is more useful when it’s representative.
+
+It is better to have some data than none. However, data quantity is only good insofar as it is a realistic depiction of the space it models. If the data you have doesn’t reflect the real world — or represents the world accurately, biases withstanding — it’ll reflect that downstream. In that way, sometimes less data is more useful.
+
+#### In practice
+
+- Understand the distribution of your dataset. Get a feel for what or who is most represented, underrepresented, and unrepresented. Check that against common sense and against baseline numbers if you have them. For quantitative data, ask for the average (mean, median) of the data.
+- For conducting statistically significant user research, use a sample size calculator. This determines how many people you need to interview in order to get results that reflect the target population or the level of precision you have in an existing sample.
+
+#### Questions to ask
+
+- Where was this data sourced?
+- (For user research) What is the demographic breakdown of this data?
+- How closely does this data emulate the population proportions?
+
+#### Running example
+
+Clearbridge is deciding to extend or discontinue its pet policy. When people check-in, they issue a survey for people to fill out and leave in their room. After a couple of days, the results show that by a large margin people want more pet services. Alisha notices that only around 3% of guests completed the survey. She redesigns the survey to appeal to a wider audience by presenting it as the pre-login screen for the WiFi, resulting in over 40% completion. These paint a different picture of customers wanting fewer to no pet services.
 
 
-Despite this, data is often talked about in exclusive (and, let's be real, mathy) language and is shrouded in mystery, leaving one of the most powerful tools in the hands of few. By its end, this material should begin to demystify the world of data, and leave you with tangible ways to begin using data for your own gain.
+
+### 6. Data should be interrogated at every step.
+
+Data is a byproduct of fallible humans. The standards around what data is relevant, how it is collected, where it’s being used, and how it’s being disposed are created by people. Anyone involved in this process should be concerned with ensuring the data is being used ethically.
+
+#### In practice
+
+- Receive permission from whom the data was collected and be transparent about why you’ll use the data.
+- Collect, treat, and store the data responsibly and with integrity. Specifically, this means in compliance with any relevant rules and regulations. (See GDPR).
+- Run an [Assumptions and Questions](https://www.ibm.com/design/thinking/page/toolkit/activity/assumptions-and-questions) exercise.
+
+#### Questions to ask
+- Is it ethical to have and use it? (See Everyday Ethics for AI)
+- What are the riskiest assumptions imbedded within this data?
+- What additions, revisions, deletions, and transformations have been made to the data?
+
+#### Running example
+
+The Clearbridge team has begun instrumenting several data auditing procedures. At the beginning of each sprint, if their next feature release requires net new data, the team asks what the implications of using that data are using the Data Decrees and Everyday Ethics for AI. As a part of their product performance playbacks, they review how user data is influencing their deployed models. Also, team members semi-regularly ask questions in Slack about data — and how to get smarter!
+
+
+
+## Conclusion
+
+We make decisions every day based off of the information we gather and the patterns we observe, both consciously and subconsciously. Some of these decisions we make so instinctively that we don't even realize they're happening, like what to wear, what to prepare for dinner, which way to take to work. Our decisions depend on lived experience, context, and data.
+
+Despite growing AI adoption, data is still shrouded in mystery, leaving one of the most powerful tools in the hands of few. This material seeks to demystify the world of data, as well as and leave you with tangible ways to begin using data for the good of your users. Speaking the language of data is incumbent on all of us, as every individual is accountable for the solutions, products, and experiences we help create.

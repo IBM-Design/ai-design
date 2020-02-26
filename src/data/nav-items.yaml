@@ -40,6 +40,8 @@
   pages:
     - title: Overview
       path: /data
+    - title: Process
+      path: /data/process
 - title: Glossary
   pages:
     - path: /glossary
