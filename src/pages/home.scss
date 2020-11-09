@@ -1,3 +1,15 @@
+.bx--homepage-video-container-cta a {
+  flex: 0 0 calc(33.33333% + .5rem);
+  max-width: calc(33.33333% + 1rem);
+}
+
+@media all and (max-width: 671px) {
+  .bx--homepage-video-container-cta a {
+    flex: 0 0 50%;
+    max-width: 100%;
+  }
+}
+
 .container--homepage a:hover {
   text-decoration: none;
 }
@@ -18,8 +30,11 @@
   padding-top: 2.375rem;
   padding-bottom: 3rem;
 
-  .card a {
-    background: none;
+  .card {
+    margin-top: 0 !important;
+    a {
+      background: none;
+    }
   }
 
   .card .gatsby-resp-image-wrapper {
@@ -71,8 +86,28 @@
 
   h5 {
     font-size: 1.25rem;
+    font-size: calc(1.25rem + 0*(100vw - 20rem)/62);
     font-weight: 400;
   }
+
+  @media (min-width: 99rem) {
+    h5 {
+      font-size: 1.5rem;
+    }
+  }
+
+  // @media all and (min-width: 671px) and (max-width: 1055px) {
+  //   div > div:first-of-type {
+  //     flex: 0 0 25%;
+  //     max-width: 100%;
+  //   }
+  //
+  //   div > div:last-of-type {
+  //     flex: 0 0 75%;
+  //     max-width: 100%;
+  //   }
+  // }
+
 }
 
 .hidden {

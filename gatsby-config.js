@@ -2,7 +2,6 @@ const { PATH_PREFIX = '/' } = process.env;
 
 module.exports = {
   pathPrefix: PATH_PREFIX,
-  __experimentalThemes: [{ resolve: 'gatsby-theme-carbon', options: {} }],
   siteMetadata: {
     title: 'IBM Design for AI',
     description: 'Our practice is built on our Principles for the AI Era as a resource for all designers and developers. This shared collection of ethics, guidelines, and resources ensures that IBM products share a unified foundation.',
@@ -13,6 +12,16 @@ module.exports = {
     url: "http://localhost:6003",
   },
   plugins: [
+    {
+      resolve: 'gatsby-theme-carbon',
+      options: {
+        repository: {
+          baseUrl: 'https://github.com/IBM-Design/ai-design',
+          subDirectory: '',
+          branch: 'staging',
+        },
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -25,5 +34,12 @@ module.exports = {
         include_favicon: false,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-149252834-1",
+      },
+    },
+    `gatsby-plugin-force-trailing-slashes`
   ],
 };
