@@ -10,9 +10,9 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "trash .cache && rm -rf public && PATH_PREFIX='/design/ai' gatsby build --prefix-paths && mv public ai && mkdir design && mv ai design && mkdir public && mv design public && cp ./static/hero.png ./static/hero.mp4 public/design/ai",
-    "develop:clean": "trash .cache && gatsby develop",
-    "prod": "trash .cache && gatsby serve",
+    "build": "gatsby clean && PATH_PREFIX='/design/ai' gatsby build --prefix-paths && mv public ai && mkdir design && mv ai design && mkdir public && mv design public && cp ./static/hero.png ./static/hero.mp4 public/design/ai",
+    "develop:clean": "gatsby clean && gatsby develop",
+    "prod": "gatsby clean && gatsby serve",
     "now-build": "npm run build"
   },
   "dependencies": {
