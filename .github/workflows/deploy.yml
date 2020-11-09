@@ -41,7 +41,7 @@ jobs:
         run: ibmcloud cf add-plugin-repo CF-Community https://plugins.cloudfoundry.org && ibmcloud cf install-plugin blue-green-deploy -f -r CF-Community
 
       - name: Deploy website
-        run: ibmcloud cf blue-green-deploy ibm-design-research -f manifest-production.yml --delete-old-apps
+        run: ibmcloud cf blue-green-deploy ai-design -f manifest.yml --delete-old-apps
 
       - name: Login to ibmcloud eu-de
         env:
@@ -49,4 +49,4 @@ jobs:
         run: ibmcloud login -a "https://cloud.ibm.com" -u apikey -p "$IBM_CLOUD_API_KEY" -o "IBMDesignOrg" -s aidp -r "eu-de"
 
       - name: Deploy website
-        run: ibmcloud cf blue-green-deploy ibm-design-research -f manifest-production.yml --delete-old-apps
+        run: ibmcloud cf blue-green-deploy ai-design -f manifest.yml --delete-old-apps
