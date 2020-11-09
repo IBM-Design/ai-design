@@ -1,10 +1,7 @@
 import React from 'react';
 import { HomepageCallout } from 'gatsby-theme-carbon';
 import HomepageVideo  from '../../components/HomepageVideo';
-import { settings } from "carbon-components";
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
-
-const { prefix } = settings;
 
 // Component to be shadowed
 
@@ -17,7 +14,7 @@ const FirstLeftText = () => (
 
 const FirstRightText = () => (
   <p>
-    <strong>To design for a relationship with AI, we need to know ourselves first.</strong>   Our practice is built on IBM’s Principles for the AI Era as a resource for
+    <strong>To design for a relationship with AI, we need to know ourselves first.</strong> Our practice is built on IBM’s Principles for the AI Era as a resource for
     all designers and developers. This shared collection of ethics, guidelines,
     and resources ensures that IBM products share a unified foundation.
   </p>
@@ -37,12 +34,6 @@ const SecondRightText = () => (
       Start Contributing →
     </a>
   </p>
-);
-
-const BannerText = () => (
-  <h1 class='banner-text'>
-    To design for a relationship with AI, we need to know ourselves first.
-  </h1>
 );
 
 const customProps = {
