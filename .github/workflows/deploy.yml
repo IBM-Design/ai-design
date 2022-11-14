@@ -1,4 +1,4 @@
-name: Deployment status
+name: Deployment to S3
 
 on:
   workflow_dispatch:
@@ -9,10 +9,14 @@ on:
     branches:
       - master
 
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
-    runs-on: macos-latest
-
+    if: github.repository == 'IBM-Design/ai-design'
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js 12.x
@@ -26,27 +30,14 @@ jobs:
       - name: Build site
         run: npm run build
 
-      - name: Install IBM Cloud CLI
-        run: curl -fsSL https://clis.cloud.ibm.com/install/osx | sh
-
-      - name: Install Cloud Foundry CLI
-        run: ibmcloud cf install -v 6.51.0
-
-      - name: Login to ibmcloud us-south
+      - uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --acl public-read --follow-symlinks --delete
         env:
-          IBM_CLOUD_API_KEY: ${{ secrets.IBM_CLOUD_API_KEY }}
-        run: ibmcloud login -a "https://cloud.ibm.com" -u apikey -p "$IBM_CLOUD_API_KEY" -o "IBMDesignOrg" -s aidp -r "us-south"
-
-      - name: BlueGreen Deploy
-        run: ibmcloud cf add-plugin-repo CF-Community https://plugins.cloudfoundry.org && ibmcloud cf install-plugin blue-green-deploy -f -r CF-Community
-
-      - name: Deploy website
-        run: ibmcloud cf blue-green-deploy ai-design -f manifest.yml --delete-old-apps
-
-      - name: Login to ibmcloud eu-de
-        env:
-          IBM_CLOUD_API_KEY: ${{ secrets.IBM_CLOUD_API_KEY }}
-        run: ibmcloud login -a "https://cloud.ibm.com" -u apikey -p "$IBM_CLOUD_API_KEY" -o "IBMDesignOrg" -s aidp -r "eu-de"
-
-      - name: Deploy website
-        run: ibmcloud cf blue-green-deploy ai-design -f manifest.yml --delete-old-apps
+          AWS_S3_BUCKET: ${{ secrets.COS_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.COS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.COS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ${{ secrets.COS_REGION }}
+          AWS_S3_ENDPOINT: https://${{ secrets.COS_ENDPOINT }}
+          SOURCE_DIR: 'public/design/ai'
+          DEST_DIR: 'design/ai'
