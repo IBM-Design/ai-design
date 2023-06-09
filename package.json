@@ -16,7 +16,7 @@
     "now-build": "npm run build"
   },
   "dependencies": {
-    "gatsby": "^2.25.3",
+    "gatsby": "^4.25.7",
     "gatsby-theme-carbon": "^1.27.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
